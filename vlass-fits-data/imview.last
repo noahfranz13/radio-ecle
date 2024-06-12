@@ -1,0 +1,6 @@
+raster  = 'SDSS_J1402/SDSS_J1402-11-VLASS-QL_3.1_J210.52+29.66_s2.0arcmin.T18t19.J140204.75+293946.8.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits'
+contour = {}
+zoom    = 1
+axes    = {}
+out     = ''
+#imview( raster='SDSS_J1402/SDSS_J1402-11-VLASS-QL_3.1_J210.52+29.66_s2.0arcmin.T18t19.J140204.75+293946.8.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits',contour={},zoom=1,axes={},out='' )

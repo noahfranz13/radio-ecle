@@ -1,0 +1,16 @@
+name,ra,ra_unit,dec,dec_unit,redshift,coord_and_redshift_refs,radio_data,radio_data_comment
+2019qiz,04:46:38.880,hour,-10:13:35.90,degree,0.0151,TNS,TRUE,"Kate (very good radio dataset, still need to add it though), VLASS"
+SDSS_J0748,07:48:20.6668,hour,+47:12:14.2648,degree,0.0616,Callow+2024,TRUE,"Kate, VLASS"
+SDSS_J0807,08:07:27.3157,hour,+14:05:37.0892,degree,0.0738,Callow+2024,TRUE,VLASS
+SDSS_J0938,09:38:01.6376,hour,+13:53:17.0423,degree,0.101,Callow+2024,TRUE,"Kate, VLASS"
+SDSS_J0952,09:52:09.5629,hour,+21:43:13.2979,degree,0.0795,Callow+2024,TRUE,"Kate, VLASS"
+SDSS_J1055,10:55:26.4177,hour,+56:37:13.1010,degree,0.0740,Callow+2024,TRUE,"Kate, VLASS"
+SDSS_J1207,12:07:19.8102,hour,+24:11:55.8789,degree,0.0503,Callow+2024,TRUE,VLASS
+SDSS_J1241,12:41:34.2561,hour,+44:26:39.2636,degree,0.0419,Callow+2024,TRUE,"Kate, VLASS"
+SDSS_J1247,12:47:26.3719,hour,+07:05:25.0809,degree,0.104,Callow+2024,TRUE,VLASS
+SDSS_J1342,13:42:44.4150,hour,+05:30:56.1451,degree,0.0365,Callow+2024,TRUE,"Kate, VLASS"
+SDSS_J1350,13:50:01.4946,hour,+29:16:09.6460,degree,0.0777,Callow+2024,TRUE,"Kate, VLASS"
+SDSS_J1402,14:02:04.7560,hour,+29:39:46.8759,degree,0.196,Callow+2024,TRUE,VLASS
+SDSS_J1459,14:59:26.0676,hour,+40:45:38.5508,degree,0.151,Callow+2024,TRUE,VLASS
+SDSS_J1715,17:15:04.2893,hour,+56:47:15.8404,degree,0.191,Callow+2024,TRUE,VLASS
+SDSS_J2220,22:20:55.7312,hour,-07:53:17.8464,degree,0.149,Callow+2024,TRUE,VLASS
