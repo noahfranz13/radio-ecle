@@ -1,0 +1,94 @@
+\ source_id_mf
+\ ___ Source id from Multiframe (coadd id and source number)
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ nb
+\ ___ number of PSF components used in profile fit for source
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ cc_flags
+\ ___ contamination and confusion flags affecting the source in each band
+\ frame_id
+\ ___ frameset identifier
+\ mjd (day)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ w1mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 1
+\ w1sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 1
+\ w1rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 1
+\ w2mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 2
+\ w2sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 2
+\ w2rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 2
+\ w3mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 3
+\ w3sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 3
+\ w3rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 3
+\ w4mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 4
+\ w4sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 4
+\ w4rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 4
+\ qi_fact
+\ ___ Frame image quality score
+\ saa_sep (deg)
+\ ___ SAA separation. Distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=25
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE='n'
+\DATETIME='2024-06-27 11:13:53'
+\DATABASE='AllWISE Multiepoch Photometry Table (allwise_p3as_mep)'
+\EQUINOX='J2000'
+\SKYAREA='within 5 arcsec of  ra=302.91214 dec=-21.16023 Eq J2000 '
+\StatusFile='/workspace/TMP_jLVb95_585/Gator/irsa/585/log.585.html'
+\SQL="'WHERE (no constraints)SELECT (25 column names follow in next row.)"
+|        source_id_mf|        ra|        dec|        clon|         clat|  nb|  na|cc_flags| frame_id|          mjd|w1mpro_ep|w1sigmpro_ep|w1rchi2_ep|w2mpro_ep|w2sigmpro_ep|w2rchi2_ep|w3mpro_ep|w3sigmpro_ep|w3rchi2_ep|w4mpro_ep|w4sigmpro_ep|w4rchi2_ep|qi_fact|saa_sep|moon_masked|    dist|     angle|
+|                char|    double|     double|        char|         char|long|long|    char|     char|       double|   double|      double|    double|   double|      double|    double|   double|      double|    double|   double|      double|    double| double|   long|       char|  double|    double|
+|                    |       deg|        deg|            |             |    |    |        |         |            d|      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |       |    deg|           |  arcsec|       deg|
+|                null|      null|       null|        null|         null|null|null|    null|     null|         null|     null|        null|      null|     null|        null|      null|     null|        null|      null|     null|        null|      null|   null|   null|       null|    null|      null|
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03845b153 55306.7669227    14.476        0.213      3.834     13.91        0.184      1.306     11.17         null      1.021     7.346         null      0.906     1.0      95        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03845b152 55306.7667954    14.475        0.112      3.833    14.219        0.244      1.144    10.344         null      1.128     7.408         null      0.906     1.0      95        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03841b153 55306.6346185    14.079        0.079      4.623    14.467        0.261      1.199    10.301         null      1.178     7.171         null      0.917     1.0      59        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03841b152 55306.6344911    14.286        0.082      3.743    14.073         0.21      1.177    10.848         null      1.028     7.707         null      0.972     1.0      59        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03837b152 55306.5021869    14.321        0.117      3.708     13.68        0.127      1.748    11.025         null      1.036      7.09         null      0.974     1.0      17        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03833b152 55306.3698827    14.597        0.139      4.167    13.179         null      1.145    11.202         null      1.152      7.79         null      1.075     1.0     -15        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09346a151 55488.6995083    14.666        0.127      4.421    14.438        0.275      1.188      null         null       null      null         null       null     1.0       1        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03848a128 55306.8330111     14.26        0.137      3.786    14.057        0.204      1.185    10.797         null      1.023     7.162        0.321      1.347     1.0     101        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03864a127 55307.3622279     9.758        0.184    52180.0    14.309        0.314      1.151    11.074         null      1.166     7.115         null      0.957     1.0     -16        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03860a127 55307.2299237    14.266        0.116      3.775    14.233          0.2      1.144    10.837         null      1.025     7.759         null      1.041     1.0      -4        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03856a128 55307.0976195    14.351        0.095      3.699    14.249        0.245      1.145    11.091         null      1.039     7.568         null      1.447     1.0      20        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03853b153 55307.0315311    14.545        0.224      4.003    13.946        0.155      1.268    10.855         null       1.02     7.666         null      0.935     1.0      41        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03852a128 55306.9653153    14.238        0.092      3.835    14.079        0.186      1.174     10.63         null      1.064     7.677         null      1.216     1.0      62        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 03849b153 55306.8992269    14.347        0.101      3.699    14.131        0.198      1.157    10.644         null       1.04     7.675         null      0.955     1.0      82        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09373a126 55489.5591666    14.427        0.085      3.751    14.394        0.241      1.173      null         null       null      null         null       null     1.0      37        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09369a127   55489.42699    14.206        0.069      3.931     14.41        0.286      1.177      null         null       null      null         null       null     1.0      79        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09365a127  55489.294686     14.13        0.066      4.279    14.235        0.227      1.144      null         null       null      null         null       null     1.0      98        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09362a151 55489.2285976    14.182        0.092      4.024    14.057        0.181      1.185      null         null       null      null         null       null     1.0      83        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09361a127  55489.162382    14.495        0.111      3.875    14.668        0.337        1.3      null         null       null      null         null       null     1.0      62        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09359a070 55489.0962937    14.419        0.083      3.741    14.289         0.26      1.148      null         null       null      null         null       null     1.0      42        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09357a127 55489.0302053    14.191        0.125      3.985    14.952         null       2.18      null         null       null      null         null       null     1.0      21        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09357a126  55489.030078    14.485          0.1      3.852    14.585        0.274      1.254      null         null       null      null         null       null     1.0      21        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09354a151 55488.9639897    14.325        0.084      3.706    13.805        0.143      1.463      null         null       null      null         null       null     1.0       0        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09350a150 55488.8316849    14.097        0.064      4.487     11.72         null      2.562      null         null       null      null         null       null     1.0     -16        0000 3.350277 342.203432 
+ 3034m213_ac51-038926 302.911835 -21.1593439 20h11m38.84s -21d09m33.64s    1    0     0000 09342a151 55488.5672043    14.683        0.108      4.489    14.404        0.256      1.176      null         null       null      null         null       null     1.0      35        0000 3.350277 342.203432 

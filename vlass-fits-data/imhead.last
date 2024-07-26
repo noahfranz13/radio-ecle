@@ -1,6 +1,0 @@
-imagename = 'SDSS_J2220/SDSS_J2220-14-VLASS-QL_3.1_J335.23--7.89_s2.0arcmin.T09t34.J222055.73-075317.8.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits'
-mode      = 'get'
-hdkey     = 'beampa'
-hdvalue   = ''
-verbose   = False
-#imhead( imagename='SDSS_J2220/SDSS_J2220-14-VLASS-QL_3.1_J335.23--7.89_s2.0arcmin.T09t34.J222055.73-075317.8.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits',mode='get',hdkey='beampa',hdvalue='',verbose=False )

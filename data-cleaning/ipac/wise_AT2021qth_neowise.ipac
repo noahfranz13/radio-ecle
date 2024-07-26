@@ -1,0 +1,118 @@
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ sigra (arcsec)
+\ ___ uncertainty in RA
+\ sigdec (arcsec)
+\ ___ uncertainty in DEC
+\ sigradec (arcsec)
+\ ___ uncertainty cross-term
+\ glon (deg)
+\ ___ galactic longitude
+\ glat (deg)
+\ ___ galactic latitude
+\ elon (deg)
+\ ___ ecliptic longitude
+\ elat (deg)
+\ ___ ecliptic latitude
+\ w1mpro (mag)
+\ ___ instrumental profile-fit photometry magnitude, band 1
+\ w1sigmpro (mag)
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 1
+\ w1snr
+\ ___ instrumental profile-fit photometry S/N ratio, band 1
+\ w1rchi2
+\ ___ instrumental profile-fit photometry reduced chi^2, band 1
+\ w2mpro (mag)
+\ ___ instrumental profile-fit photometry magnitude, band 2
+\ w2sigmpro (mag)
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 2
+\ w2snr
+\ ___ instrumental profile-fit photometry S/N ratio, band 2
+\ w2rchi2
+\ ___ instrumental profile-fit photometry reduced chi^2, band 2
+\ rchi2
+\ ___ instrumental profile-fit photometry reduced chi squared, total
+\ nb
+\ ___ number of blend components used in each fit
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ w1sat
+\ ___ fraction of pixels saturated, band 1
+\ w2sat
+\ ___ fraction of pixels saturated, band 2
+\ satnum
+\ ___ minimum sample at which saturation occurs, 1 char per band
+\ cc_flags
+\ ___ prioritized artifacts affecting the source in each band
+\ det_bit
+\ ___ bit-encoded number(10) indicating detection for each band
+\ ph_qual
+\ ___ photometric quality of each band (A=highest, U=upper limit)
+\ sso_flg
+\ ___ known solar system object association flag (0=no association,
+\ 1=association)
+\ qual_frame
+\ ___ quality score value for frame
+\ qi_fact
+\ ___ quality factor qi value for frame: image quality
+\ saa_sep (deg)
+\ ___ distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ w1frtr
+\ ___ Transient pixel indicator string, band 1
+\ w2frtr
+\ ___ Transient pixel indicator string, band 2
+\ mjd (mjdate)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ allwise_cntr
+\ ___ closest associated ALLWISE Catalog source cntr
+\ r_allwise (arcsec)
+\ ___ radial offset between NEOWISER src and associated ALLWISE src
+\ pa_allwise (deg)
+\ ___ position angle (E of N) of vector from NEOWISER src to associated ALLWISE
+\ src
+\ n_allwise (int)
+\ ___ number of ALLWISE src  entries found within search radius of NEOWISER src
+\ w1mpro_allwise (mag)
+\ ___ W1mpro magnitude  of the associated ALLWISE source
+\ w1sigmpro_allwise (mag)
+\ ___ W1 photometric uncertainty of the associated ALLWISE  source
+\ w2mpro_allwise (mag)
+\ ___ W2mpro magnitude  of the associated ALLWISE  source
+\ w2sigmpro_allwise (mag)
+\ ___ W2 photometric uncertainty of the associated ALLWISE  source
+\ w3mpro_allwise (mag)
+\ ___ W3mpro magnitude  of the associated ALLWISE  source
+\ w3sigmpro_allwise (mag)
+\ ___ W3 photometric uncertainty of the associated ALLWISE source
+\ w4mpro_allwise (mag)
+\ ___ W4mpro magnitude  of the associated ALLWISE  source
+\ w4sigmpro_allwise (mag)
+\ ___ W4 photometric uncertainty of the associated ALLWISE  source
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=1
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE='n'
+\DATETIME='2024-06-27 11:13:54'
+\DATABASE='NEOWISE-R Single Exposure (L1b) Source Table (neowiser_p1bs_psd)'
+\EQUINOX='J2000'
+\SKYAREA='within 5 arcsec of  ra=302.91214 dec=-21.16023 Eq J2000 '
+\StatusFile='/workspace/TMP_ATDAHw_721/Gator/irsa/721/log.721.html'
+\SQL="'WHERE (no constraints)SELECT (48 column names follow in next row.)"
+|         ra|        dec|        clon|         clat| sigra|sigdec|sigradec|      glon|       glat|       elon|      elat|w1mpro|w1sigmpro| w1snr|w1rchi2|w2mpro|w2sigmpro| w2snr|w2rchi2| rchi2|  nb|  na| w1sat| w2sat|satnum|cc_flags|det_bit|ph_qual|sso_flg|qual_frame|qi_fact|saa_sep|moon_masked|w1frtr|w2frtr|           mjd|allwise_cntr|r_allwise|pa_allwise|n_allwise|w1mpro_allwise|w1sigmpro_allwise|w2mpro_allwise|w2sigmpro_allwise|w3mpro_allwise|w3sigmpro_allwise|w4mpro_allwise|w4sigmpro_allwise|    dist|     angle|
+|     double|     double|        char|         char|double|double|  double|    double|     double|     double|    double|double|   double|double| double|double|   double|double| double|double|long|long|double|double|  char|    char|   long|   char|   long|      long| double| double|       char|  char|  char|        double|        long|   double|    double|     long|        double|           double|        double|           double|        double|           double|        double|           double|  double|    double|
+|        deg|        deg|            |             |arcsec|arcsec|  arcsec|       deg|        deg|        deg|       deg|   mag|      mag|      |       |   mag|      mag|      |       |      |    |    |      |      |      |        |       |       |       |          |       |    deg|           |      |      |        mjdate|            |   arcsec|       deg|      int|           mag|              mag|           mag|              mag|           mag|              mag|           mag|              mag|  arcsec|       deg|
+|       null|       null|        null|         null|  null|  null|    null|      null|       null|       null|      null|  null|     null|  null|   null|  null|     null|  null|   null|  null|null|null|  null|  null|  null|    null|   null|   null|   null|      null|   null|   null|       null|  null|  null|          null|        null|     null|      null|     null|          null|             null|          null|             null|          null|             null|          null|             null|    null|      null|
+ 302.9107281 -21.1600264 20h11m38.57s -21d09m36.10s 0.1255 0.1253   0.0616 21.6058972 -26.6901215 300.4507111 -1.1323383 14.686     0.093   11.6   5.743 11.268     0.046   23.5   20.85  10.89    2    0    0.0    0.0   0000     0000       3      AA       0          0     0.0  -7.573          00   0011   1020 58960.47972545         null      null       null         0           null              null           null              null           null              null           null              null 4.796464 278.789699 

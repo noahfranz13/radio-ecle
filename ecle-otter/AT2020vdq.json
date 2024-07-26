@@ -1,0 +1,149 @@
+{
+    "name": {
+        "default_name": "AT2020vdq",
+        "alias": [
+            {
+                "value": "AT2020vdq",
+                "reference": [
+                    "2023arXiv231003782S"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "10:08:53.50",
+            "dec": "+42:42:00.40",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2023arXiv231003782S"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.045,
+            "reference": [
+                "2023arXiv231003782S"
+            ],
+            "compute": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "ECLE",
+            "confidence": 1,
+            "reference": [
+                "2023arXiv231003782S"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023arXiv231003782S"
+            ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2459126.9916204",
+            "date_format": "jd",
+            "reference": "2020TNSTR3060....1N",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "photometry": [
+        {
+            "reference": "VLASS 1.2",
+            "raw": [
+                0.4455990714
+            ],
+            "raw_err": [
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                58628.89342
+            ],
+            "date_format": "mjd",
+            "upperlimit": [
+                true
+            ],
+            "telescope": "VLA",
+            "filter_key": [
+                "S"
+            ],
+            "obs_type": "radio",
+            "reducer": [
+                "VLASS 1.2"
+            ]
+        },
+        {
+            "reference": "VLASS 2.2",
+            "raw": [
+                0.3486923278
+            ],
+            "raw_err": [
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                59496.56411
+            ],
+            "date_format": "mjd",
+            "upperlimit": [
+                true
+            ],
+            "telescope": "VLA",
+            "filter_key": [
+                "S"
+            ],
+            "obs_type": "radio",
+            "reducer": [
+                "VLASS 2.2"
+            ]
+        },
+        {
+            "reference": "WISE",
+            "raw": [],
+            "raw_err": [],
+            "raw_units": [],
+            "date": [],
+            "date_format": "mjd",
+            "upperlimit": [],
+            "telescope": "WISE",
+            "filter_key": [],
+            "obs_type": "uvoir"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2023arXiv231003782S",
+            "human_readable_name": "Somalwar, Jean J. et al. (2023)"
+        },
+        {
+            "name": "VLASS 1.2",
+            "human_readable_name": "VLASS 1.2"
+        },
+        {
+            "name": "VLASS 2.2",
+            "human_readable_name": "VLASS 2.2"
+        },
+        {
+            "name": "WISE",
+            "human_readable_name": "WISE"
+        }
+    ]
+}
