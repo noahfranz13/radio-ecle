@@ -1,0 +1,107 @@
+\ source_id_mf
+\ ___ Source id from Multiframe (coadd id and source number)
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ nb
+\ ___ number of PSF components used in profile fit for source
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ cc_flags
+\ ___ contamination and confusion flags affecting the source in each band
+\ frame_id
+\ ___ frameset identifier
+\ mjd (day)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ w1mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 1
+\ w1sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 1
+\ w1rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 1
+\ w2mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 2
+\ w2sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 2
+\ w2rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 2
+\ w3mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 3
+\ w3sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 3
+\ w3rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 3
+\ w4mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 4
+\ w4sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 4
+\ w4rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 4
+\ qi_fact
+\ ___ Frame image quality score
+\ saa_sep (deg)
+\ ___ SAA separation. Distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=38
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE='n'
+\DATETIME='2024-09-25 09:52:32'
+\DATABASE='AllWISE Multiepoch Photometry Table (allwise_p3as_mep)'
+\EQUINOX='J2000'
+\SKYAREA='within 5 arcsec of  ra=252.53052 dec=+34.81881 Eq J2000 '
+\StatusFile='/workspace/TMP_Oc5EvK_10057/Gator/irsa/10057/log.10057.html'
+\SQL="'WHERE (no constraints)SELECT (25 column names follow in next row.)"
+|        source_id_mf|         ra|       dec|        clon|        clat|  nb|  na|cc_flags| frame_id|          mjd|w1mpro_ep|w1sigmpro_ep|w1rchi2_ep|w2mpro_ep|w2sigmpro_ep|w2rchi2_ep|w3mpro_ep|w3sigmpro_ep|w3rchi2_ep|w4mpro_ep|w4sigmpro_ep|w4rchi2_ep|qi_fact|saa_sep|moon_masked|    dist|     angle|
+|                char|     double|    double|        char|        char|long|long|    char|     char|       double|   double|      double|    double|   double|      double|    double|   double|      double|    double|   double|      double|    double| double|   long|       char|  double|    double|
+|                    |        deg|       deg|            |            |    |    |        |         |            d|      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |       |    deg|           |  arcsec|       deg|
+|                null|       null|      null|        null|        null|null|null|    null|     null|         null|     null|        null|      null|     null|        null|      null|     null|        null|      null|     null|        null|      null|   null|   null|       null|    null|      null|
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07601a218 55430.9721655    15.291        0.162      1.067    15.021         null      1.011      null         null       null      null         null       null     1.0      53        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07602a243  55431.038254    15.348        0.142      1.045    15.441        0.369      0.944      null         null       null      null         null       null     1.0      65        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07613a218  55431.368951    15.468        0.148      1.069    15.108        0.288       0.93      null         null       null      null         null       null     1.0     114        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07609a218 55431.2366467    15.339        0.123      1.047    15.266         null      1.152      null         null       null      null         null       null     1.0     115        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07605a164 55431.1043424    15.413        0.139      1.048    15.243        0.341      0.926      null         null       null      null         null       null     1.0      79        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02096a036 55248.8657435    15.406        0.181      1.046    15.314        0.402       0.93    10.941         null      1.119     7.567         null      1.117     1.0     124        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07598a242 55430.9059497      15.4        0.131      1.045    15.182         null      1.066      null         null       null      null         null       null     1.0      44        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02097b061 55248.9319593    15.527        0.149      1.108     15.29         null      1.229     11.35         null      1.093     7.929         null      1.054     1.0     105        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07597a218 55430.8398612    15.477        0.128      1.074     14.92        0.244      0.971      null         null       null      null         null       null     1.0      42        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07594a243 55430.7737727     15.45        0.151       1.06    14.849        0.224      1.001      null         null       null      null         null       null     1.0      42        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07594a242 55430.7736454     15.31        0.125      1.057    15.433         0.39      0.943      null         null       null      null         null       null     1.0      42        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07593a218 55430.7075569    15.054        0.101      1.491    15.357         0.37      0.933      null         null       null      null         null       null     1.0      51        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07590a243 55430.6414684    15.506        0.144      1.093    15.317        0.365       0.93      null         null       null      null         null       null     1.0      60        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07589a218 55430.5752527    15.549        0.146      1.127     14.66        0.218      1.137      null         null       null      null         null       null     1.0      67        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07587a170 55430.5091642    15.529        0.133       1.11    15.365        0.414      0.934      null         null       null      null         null       null     1.0      79        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07585a218 55430.4429484    15.375        0.124      1.043    15.379        0.384      0.936      null         null       null      null         null       null     1.0      94        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07582a242   55430.37686    15.362        0.206      1.043    14.687        0.192      1.112      null         null       null      null         null       null     1.0     111        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07581a218 55430.3106441    15.372        0.161      1.043    15.741        0.487        1.0      null         null       null      null         null       null     1.0     130        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07578a242 55430.2445557    15.288        0.153      1.069    14.761        0.238      1.053      null         null       null      null         null       null     1.0     117        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07577a164 55430.1783399    15.615        0.156      1.194    15.346         0.36      0.932      null         null       null      null         null       null     1.0      99        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07570a242 55429.9799472    15.102        0.102      1.353    15.703        0.506      0.992      null         null       null      null         null       null     1.0      54        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 07566a242 55429.8476429    15.602        0.155       1.18    15.311        0.332      0.929      null         null       null      null         null       null     1.0      42        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02132a038 55250.0567352     15.37        0.128      1.043    15.433        0.422      0.943    11.226         null      1.092     7.333         null      1.182     1.0      76        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02128a039 55249.9244311    15.298        0.123      1.063    14.641        0.226      1.157    10.908         null      1.121     7.514         null      1.121     1.0     107        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02124a039  55249.792127    15.423        0.128       1.05    15.002         0.28      0.947     11.32        0.456      1.228     7.953         null      1.047     1.0     122        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02120a040 55249.6598229    15.269        0.118      1.082    14.645        0.275      1.153    11.498         null      1.185     7.622         null      1.615     1.0      86        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02086a012 55248.5349196    15.278        0.132      1.075    15.255        0.398      0.926    10.944         null      1.105     8.033         null      1.176     1.0      59        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02089b062  55248.667351     15.14        0.101      1.265    14.934         null      0.993    11.532         null       1.12     7.925         null      1.087     1.0      88        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02093b061 55248.7996552    15.146        0.119      1.251    15.027        0.289      0.941    11.378         null      1.096     7.784         null      1.057     1.0     125        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02100a037  55248.998175    15.889        0.199      1.587     15.36        0.367      0.934     10.91         null      1.128     7.851         null      1.056     1.0      88        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02101b061 55249.0642634    15.521        0.166      1.104     14.97         null      1.026    11.078         null      1.098     7.864         null      1.637     1.0      75        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02105b060 55249.1965675    15.178        0.115      1.192    15.073        0.323      0.934    11.476         null      1.242     7.145         null      1.107     1.0      58        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02108a035 55249.2627832    15.299        0.136      1.063    14.876        0.296      0.988    11.245         null      1.091     7.897         null      1.055     1.0      48        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02109b060 55249.3289989    15.495        0.145      1.085    14.794        0.245      1.031    10.933         null      1.119     7.943         null       1.09     1.0      42        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02112a034 55249.3950873    15.306        0.155      1.059    15.124        0.366      0.928    11.508         null      1.111     7.994         null      1.062     1.0      43        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02113b063 55249.4613031    15.249        0.105        1.1    15.181        0.351      0.926     11.51         null      1.126     7.635         null      1.088     1.0      47        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02116a041 55249.5273914    15.717        0.166      1.322    15.116        0.292      0.929    11.317         null      1.103     7.962         null      1.051     1.0      57        0000 0.192535 115.707219 
+ 2521p348_ac51-029631 252.5305787 34.8187868 16h50m07.34s 34d49m07.63s    1    0     0000 02117b066 55249.5936071      15.2        0.107      1.158    15.324        0.364       0.93    11.161         null      1.093     7.886        0.484      1.286     1.0      71        0000 0.192535 115.707219 

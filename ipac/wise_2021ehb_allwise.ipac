@@ -1,0 +1,96 @@
+\ source_id_mf
+\ ___ Source id from Multiframe (coadd id and source number)
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ nb
+\ ___ number of PSF components used in profile fit for source
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ cc_flags
+\ ___ contamination and confusion flags affecting the source in each band
+\ frame_id
+\ ___ frameset identifier
+\ mjd (day)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ w1mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 1
+\ w1sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 1
+\ w1rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 1
+\ w2mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 2
+\ w2sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 2
+\ w2rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 2
+\ w3mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 3
+\ w3sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 3
+\ w3rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 3
+\ w4mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 4
+\ w4sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 4
+\ w4rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 4
+\ qi_fact
+\ ___ Frame image quality score
+\ saa_sep (deg)
+\ ___ SAA separation. Distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=27
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE='n'
+\DATETIME='2024-09-25 09:52:49'
+\DATABASE='AllWISE Multiepoch Photometry Table (allwise_p3as_mep)'
+\EQUINOX='J2000'
+\SKYAREA='within 5 arcsec of  ra=46.94928 dec=+40.31124 Eq J2000 '
+\StatusFile='/workspace/TMP_h0xcOu_10443/Gator/irsa/10443/log.10443.html'
+\SQL="'WHERE (no constraints)SELECT (25 column names follow in next row.)"
+|        source_id_mf|        ra|       dec|        clon|        clat|  nb|  na|cc_flags| frame_id|          mjd|w1mpro_ep|w1sigmpro_ep|w1rchi2_ep|w2mpro_ep|w2sigmpro_ep|w2rchi2_ep|w3mpro_ep|w3sigmpro_ep|w3rchi2_ep|w4mpro_ep|w4sigmpro_ep|w4rchi2_ep|qi_fact|saa_sep|moon_masked|    dist|     angle|
+|                char|    double|    double|        char|        char|long|long|    char|     char|       double|   double|      double|    double|   double|      double|    double|   double|      double|    double|   double|      double|    double| double|   long|       char|  double|    double|
+|                    |       deg|       deg|            |            |    |    |        |         |            d|      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |       |    deg|           |  arcsec|       deg|
+|                null|      null|      null|        null|        null|null|null|    null|     null|         null|     null|        null|      null|     null|        null|      null|     null|        null|      null|     null|        null|      null|   null|   null|       null|    null|      null|
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07496a094 55427.4851282    12.163        0.027      13.75     12.21        0.039      3.136      null         null       null      null         null       null     1.0      55        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07492a094 55427.3528241    12.083        0.029       13.7     12.21         0.04      3.136      null         null       null      null         null       null     1.0      48        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07480a094 55426.9560393    12.082        0.031      13.71    12.238        0.046      3.179      null         null       null      null         null       null     1.0     102        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07480a093 55426.9559119    12.138        0.039      13.66    12.174        0.041      3.145      null         null       null      null         null       null     1.0     102        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07484a093  55427.088216    12.209        0.035      14.09     12.17        0.043      3.152      null         null       null      null         null       null     1.0      76        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07488a093 55427.2205201    12.176        0.032      13.83    12.207        0.043      3.134      null         null       null      null         null       null     1.0      59        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01710b184 55236.1431621    12.103        0.029      13.65    12.183         0.04      3.136    11.198         null      0.985     7.912         null      1.429     1.0      91        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01714a184 55236.2754662    12.069        0.033      13.77    12.177        0.041      3.142    10.981        0.376       0.98     7.353         null      1.337     1.0     127        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01718a185 55236.4078978    12.124         0.03      13.64    12.184        0.041      3.135    11.347         null      1.087     7.601         null      1.305     1.0     104        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01721a160 55236.4739862    12.137         0.03      13.66    12.285         0.04      3.342    11.014        0.417      0.971     7.389         null      1.332     1.0      88        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01722b185  55236.540202    12.147        0.029      13.69    12.188        0.044      3.133    10.664         null      0.917      7.91         null      1.326     1.0      75        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01725a160 55236.6062904    12.122         0.03      13.64    12.178        0.044      3.141    10.688         null      0.919     7.141         null      1.382     1.0      66        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01725a161 55236.6064177    12.115        0.031      13.64    12.103        0.041      3.414    11.348        0.527      0.923     7.691         null      1.305     1.0      67        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01726a185 55236.6725061    12.136        0.027      13.66    12.203        0.044      3.132    10.932        0.358      0.994     7.303         null      1.315     1.0      58        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01729a161 55236.7387219     12.13        0.028      13.65    12.195        0.039      3.131    10.727         null      0.924     7.794         null      1.308     1.0      49        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01730a184 55236.8048103    12.099        0.034      13.65    12.162        0.042      3.167    11.361        0.528      0.922     7.978         null      1.356     1.0      44        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01733a161 55236.8710261    12.161        0.026      13.74     12.12        0.042      3.316    10.951         null      0.978      7.93         null      1.323     1.0      45        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01737a161 55237.0033303    12.108        0.024      13.64    12.138         0.04      3.237    10.952         0.36      0.988     7.865        0.513      1.418     1.0      60        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 01741a107 55237.1356345    12.102        0.032      13.65    12.203        0.045      3.132    11.249         null      0.997      7.84         null      1.307     1.0      89        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07461b118 55426.3606073    12.096        0.037      13.66    12.199         0.04      3.131      null         null       null      null         null       null     1.0      48        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07461b119 55426.3607346    11.711        0.034      27.65    12.173        0.046      3.147      null         null       null      null         null       null     1.0      47        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07465b118 55426.4929114    12.153        0.031      13.71    12.231         0.04      3.164      null         null       null      null         null       null     1.0      56        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07469b118 55426.6252154    12.126         0.03      13.64    12.229        0.043      3.161      null         null       null      null         null       null     1.0      81        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07473b119 55426.7575195    12.116        0.026      13.64     12.17        0.047      3.152      null         null       null      null         null       null     1.0     113        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07476a094 55426.8237352    12.083        0.029       13.7    12.271         0.04      3.285      null         null       null      null         null       null     1.0     131        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07477b119 55426.8898236    12.083        0.036       13.7    12.188        0.039      3.133      null         null       null      null         null       null     1.0     119        0000 0.467599 349.958637 
+ 0474p408_ac51-007744 46.9492503 40.3113679 03h07m47.82s 40d18m40.92s    1    0     0000 07481b119 55427.0221276    12.147        0.027      13.69    12.234        0.039      3.171      null         null       null      null         null       null     1.0      87        0000 0.467599 349.958637 

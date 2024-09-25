@@ -1,4 +1,4 @@
-name,ra,ra_unit,dec,dec_unit,coord_ref,discovery_date,discovery_date_format,discovery_date_ref,redshift,redshift_ref,classification,classification_ref,radio_data,radio_data_comment,otter,otter_comments
+name,ra,ra_unit,dec,dec_unit,coord_bibcode,discovery_date,discovery_date_format,discovery_date_bibcode,redshift,redshift_bibcode,classification,classification_bibcode,radio_data,radio_data_comment,otter,otter_comments
 2019qiz,04:46:37.880,hour,-10:13:34.90,degree, 2019TNSTR1857....1F,2458745.9998032,JD,2019TNSTR1857....1F,0.0151, 2019TNSTR1857....1F,TDE, 2019TNSCR1921....1S,TRUE,"Kate (very good radio dataset, still need to add it though), VLASS",TRUE,good uvoir dataset
 SDSS_J0748,07:48:20.6668,hour,+47:12:14.2648,degree,2024arXiv240216951C,2004-02-20,iso,2024MNRAS.528.7076C,0.0616,2024arXiv240216951C,TDE,2024MNRAS.528.7076C,TRUE,"Kate, VLASS",TRUE,some xray data is available
 SDSS_J0807,08:07:27.3157,hour,+14:05:37.0892,degree,2024arXiv240216951C,2005-11-08,iso,2024arXiv240216951C,0.0738,2024arXiv240216951C,AGN,2024arXiv240216951C,TRUE,VLASS,FALSE,

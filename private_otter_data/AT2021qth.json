@@ -1,0 +1,122 @@
+{
+    "name": {
+        "default_name": "AT2021qth",
+        "alias": [
+            {
+                "value": "AT2021qth",
+                "reference": [
+                    "2021TNSTR2141....1F"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "20:11:38.914",
+            "dec": "-21:09:36.83",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2021TNSTR2141....1F"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.0805,
+            "reference": [
+                "2023ApJ...955L...6Y"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023ApJ...955L...6Y"
+            ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2459382.9156134",
+            "date_format": "jd",
+            "reference": [
+                "2021TNSTR2141....1F",
+                "2021TNSTR2141....1F",
+                "2021TNSTR2141....1F"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "photometry": [
+        {
+            "reference": "private",
+            "raw": [
+                0.4651683069,
+                0.3956265671,
+                0.4486751943
+            ],
+            "raw_err": [
+                0.1402138915,
+                0.0,
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                59154.00235,
+                58167.71867,
+                60109.38269
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                true,
+                true
+            ],
+            "filter_key": [
+                "3.0GHz",
+                "3.0GHz",
+                "3.0GHz"
+            ],
+            "obs_type": "radio",
+            "reducer": [
+                "VLASS 2.1",
+                "VLASS 1.1",
+                "VLASS 3.1"
+            ],
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2021TNSTR2141....1F",
+            "human_readable_name": "Yao, Yuhan et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...955L...6Y",
+            "human_readable_name": "Forster, F. et al. (2021)"
+        }
+    ]
+}

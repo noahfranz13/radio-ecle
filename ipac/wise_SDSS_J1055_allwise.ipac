@@ -1,0 +1,98 @@
+\ source_id_mf
+\ ___ Source id from Multiframe (coadd id and source number)
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ nb
+\ ___ number of PSF components used in profile fit for source
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ cc_flags
+\ ___ contamination and confusion flags affecting the source in each band
+\ frame_id
+\ ___ frameset identifier
+\ mjd (day)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ w1mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 1
+\ w1sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 1
+\ w1rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 1
+\ w2mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 2
+\ w2sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 2
+\ w2rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 2
+\ w3mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 3
+\ w3sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 3
+\ w3rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 3
+\ w4mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 4
+\ w4sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 4
+\ w4rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 4
+\ qi_fact
+\ ___ Frame image quality score
+\ saa_sep (deg)
+\ ___ SAA separation. Distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=29
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE='n'
+\DATETIME='2024-09-25 09:53:44'
+\DATABASE='AllWISE Multiepoch Photometry Table (allwise_p3as_mep)'
+\EQUINOX='J2000'
+\SKYAREA='within 5 arcsec of  ra=163.86007 dec=+56.62031 Eq J2000 '
+\StatusFile='/workspace/TMP_T4tXPp_11943/Gator/irsa/11943/log.11943.html'
+\SQL="'WHERE (no constraints)SELECT (25 column names follow in next row.)"
+|        source_id_mf|         ra|       dec|        clon|        clat|  nb|  na|cc_flags| frame_id|          mjd|w1mpro_ep|w1sigmpro_ep|w1rchi2_ep|w2mpro_ep|w2sigmpro_ep|w2rchi2_ep|w3mpro_ep|w3sigmpro_ep|w3rchi2_ep|w4mpro_ep|w4sigmpro_ep|w4rchi2_ep|qi_fact|saa_sep|moon_masked|   dist|     angle|
+|                char|     double|    double|        char|        char|long|long|    char|     char|       double|   double|      double|    double|   double|      double|    double|   double|      double|    double|   double|      double|    double| double|   long|       char| double|    double|
+|                    |        deg|       deg|            |            |    |    |        |         |            d|      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |       |    deg|           | arcsec|       deg|
+|                null|       null|      null|        null|        null|null|null|    null|     null|         null|     null|        null|      null|     null|        null|      null|     null|        null|      null|     null|        null|      null|   null|   null|       null|   null|      null|
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04226a223 55319.3773451    13.725        0.046      1.962    12.815        0.054      1.292     9.135        0.073      1.082     6.964         0.27      1.079     1.0     113        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04231a159 55319.5096493    13.641        0.046      1.958    12.742        0.052      1.261     9.135        0.078      1.083     6.581        0.154      1.145     1.0      95        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04234a223 55319.6419535    13.715        0.048      1.937     12.71        0.057      1.316      9.14        0.067      1.077     7.124         0.26      1.131     1.0      78        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04238a223 55319.7742577     13.64        0.041      1.961    12.722        0.061      1.289     9.053        0.066      1.253     6.791        0.189      1.065     1.0      69        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10044a055 55511.7391357    13.775        0.055      2.177     12.79        0.057      1.259      null         null       null      null         null       null     1.0     106        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04241a200 55319.8404734    13.629        0.045      1.998    12.738        0.055      1.265     9.183        0.068      1.047     6.616        0.177      1.122     1.0      70        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10032a055 55511.3423458    13.781         0.05       2.21    12.707        0.052      1.321      null         null       null      null         null       null     1.0      66        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10029b079 55511.2761301    13.732        0.053      1.982    12.836        0.058      1.335      null         null       null      null         null       null     1.0      70        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10028a055 55511.2100417    13.631        0.042       1.99    12.831        0.056      1.322      null         null       null      null         null       null     1.0      77        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10024a040 55511.0777376     13.69        0.042      1.902    12.808        0.054       1.28      null         null       null      null         null       null     1.0      94        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10021b080 55511.0116492    13.717        0.045      1.941    12.779        0.055      1.251      null         null       null      null         null       null     1.0     103        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10020a055 55510.9455609    13.705        0.052      1.919    12.803        0.054      1.273      null         null       null      null         null       null     0.5     114        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10017b079 55510.8793451    13.759        0.046      2.094    12.846        0.055      1.361      null         null       null      null         null       null     1.0     125        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10016a055 55510.8132568    13.703        0.046      1.916    12.801        0.053       1.27      null         null       null      null         null       null     1.0     119        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10013b080 55510.7471684    13.664        0.051      1.911    12.861        0.059      1.407      null         null       null      null         null       null     0.5     108        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10013b079 55510.7470411    13.657        0.044      1.921    12.672        0.047      1.438      null         null       null      null         null       null     1.0     108        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10009b080 55510.6148643    13.615        0.041      2.059    12.804        0.055      1.275      null         null       null      null         null       null     1.0      85        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04269a199 55320.7666035    13.629        0.041      1.998     12.68        0.047      1.408     9.157        0.069      1.061     6.416        0.147      1.328     1.0      69        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04265a199 55320.6342993    13.639        0.042      1.964     12.71        0.051      1.315     9.248        0.078      1.064     6.815        0.217      1.063     1.0      79        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04261a166 55320.5019951    13.661        0.042      1.914    12.917        0.066      1.628     9.305        0.081      1.129      7.21        0.272      1.169     1.0      96        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04257a200 55320.3696904    13.686        0.044      1.901    12.818        0.059      1.297     9.327        0.081      1.165     6.945         0.23      1.075     1.0     114        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04254a223 55320.3034746    13.758        0.054      2.087    12.716        0.053      1.302     9.143        0.066      1.074     6.871        0.204      1.065     1.0     123        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04253a200 55320.2373861    13.681        0.044        1.9    12.701        0.054      1.338     9.262        0.078      1.075     6.923        0.231      1.071     1.0     117        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04251a148 55320.1711703    13.679        0.043        1.9    12.697        0.057      1.351     9.199        0.083      1.045     7.247        0.295      1.187     1.0     107        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04249a156 55320.1050819    13.717        0.046      1.941     12.71         0.05      1.315     9.165        0.079      1.055     6.508         0.15       1.21     1.0      97        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04246a223 55320.0388661    13.676         0.04      1.901    12.708        0.057      1.319     9.325        0.076      1.163     6.815        0.202      1.063     1.0      87        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04245a200 55319.9727777    13.652        0.047       1.93    12.743         0.08       1.26     9.257        0.079      1.071     6.935        0.231      1.073     1.0      78        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 04242a223 55319.9065619    13.605        0.043      2.115    12.673        0.051      1.437     9.171        0.066      1.052     6.831        0.194      1.063     1.0      72        0000 0.08573 315.203075 
+ 1626p560_ac51-053813 163.8600395 56.6203269 10h55m26.41s 56d37m13.18s    1    0     0000 10040a055 55511.6068315    13.662        0.045      1.914    12.867        0.058      1.426      null         null       null      null         null       null     0.5      84        0000 0.08573 315.203075 

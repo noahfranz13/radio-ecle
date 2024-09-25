@@ -1,0 +1,92 @@
+\ source_id_mf
+\ ___ Source id from Multiframe (coadd id and source number)
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ nb
+\ ___ number of PSF components used in profile fit for source
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ cc_flags
+\ ___ contamination and confusion flags affecting the source in each band
+\ frame_id
+\ ___ frameset identifier
+\ mjd (day)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ w1mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 1
+\ w1sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 1
+\ w1rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 1
+\ w2mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 2
+\ w2sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 2
+\ w2rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 2
+\ w3mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 3
+\ w3sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 3
+\ w3rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 3
+\ w4mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 4
+\ w4sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 4
+\ w4rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 4
+\ qi_fact
+\ ___ Frame image quality score
+\ saa_sep (deg)
+\ ___ SAA separation. Distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=23
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE='n'
+\DATETIME='2024-09-25 09:49:02'
+\DATABASE='AllWISE Multiepoch Photometry Table (allwise_p3as_mep)'
+\EQUINOX='J2000'
+\SKYAREA='within 5 arcsec of  ra=105.27752 dec=+40.82516 Eq J2000 '
+\StatusFile='/workspace/TMP_ICdYjz_4107/Gator/irsa/4107/log.4107.html'
+\SQL="'WHERE (no constraints)SELECT (25 column names follow in next row.)"
+|        source_id_mf|         ra|       dec|        clon|        clat|  nb|  na|cc_flags| frame_id|          mjd|w1mpro_ep|w1sigmpro_ep|w1rchi2_ep|w2mpro_ep|w2sigmpro_ep|w2rchi2_ep|w3mpro_ep|w3sigmpro_ep|w3rchi2_ep|w4mpro_ep|w4sigmpro_ep|w4rchi2_ep|qi_fact|saa_sep|moon_masked|    dist|     angle|
+|                char|     double|    double|        char|        char|long|long|    char|     char|       double|   double|      double|    double|   double|      double|    double|   double|      double|    double|   double|      double|    double| double|   long|       char|  double|    double|
+|                    |        deg|       deg|            |            |    |    |        |         |            d|      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |       |    deg|           |  arcsec|       deg|
+|                null|       null|      null|        null|        null|null|null|    null|     null|         null|     null|        null|      null|     null|        null|      null|     null|        null|      null|     null|        null|      null|   null|   null|       null|    null|      null|
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08937b122 55475.1720317    16.063        0.305      3.367    15.276         null      1.374      null         null       null      null         null       null     1.0      65        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08941b122 55475.3042084    16.131        0.233      3.129     15.34         null      1.285      null         null       null      null         null       null     1.0      48        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08944a098 55475.3704241    16.569         null      2.554    15.549        0.506      1.208      null         null       null      null         null       null     1.0      47        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08945b122 55475.4365124    16.236        0.255      2.235    15.142        0.321      1.243      null         null       null      null         null       null     1.0      49        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08948a097 55475.5026007    16.555         null      4.491    15.327        0.379      1.341      null         null       null      null         null       null     1.0      57        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08948a098  55475.502728    16.414         null      3.377    15.577         null      1.214      null         null       null      null         null       null     1.0      57        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08949b122 55475.5688163    16.333        0.263      3.824    15.457        0.461      1.131      null         null       null      null         null       null     1.0      68        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08952a097 55475.6349047     16.14        0.223      2.427     15.32         null       1.11      null         null       null      null         null       null     1.0      83        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03134a181 55283.2509083    16.231        0.353      2.188    15.697         null      1.188    11.401         null      1.056     7.587         null      0.943     1.0     121        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08933b122 55475.0397277    16.499        0.352      4.774    15.436         null      1.377      null         null       null      null         null       null     1.0      83        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08929b122 55474.9074237    16.799        0.424      2.832    15.503         null      1.153      null         null       null      null         null       null     1.0     114        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03165a157 55284.2432523    15.876        0.197      2.789    15.145         null      1.146     11.38         null      1.068      7.54         null      0.928     1.0     119        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03161a101 55284.1109483    15.656        0.165      2.909    15.678         null      1.149      11.4         null      1.054     7.261         null      0.912     1.0      85        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03157a157 55283.9786442    15.774        0.176      2.669    15.048         null      1.142    10.733         null       1.08     7.646         null      0.918     1.0      59        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03154a181 55283.9124285    16.266        0.322      4.273    15.327         null      1.342     11.33         null       1.05     7.705         null      0.899     1.0      50        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03153a157 55283.8463401    15.627        0.202      2.747    15.713         null      1.169    11.404         null      1.049     7.336         null      0.906     1.0      48        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03150a181 55283.7801244     16.19        0.252      3.422    15.542         0.53      1.189    10.747         null      1.097       7.7         null      0.922     1.0      47        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03149a158  55283.714036    16.494         null      3.727    15.014         null      1.134    10.893         null      1.119     7.817         null      0.898     1.0      54        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03146a181 55283.6478204    15.943        0.206       2.41    14.827         null      1.121    11.067         null       1.05     7.863         null      0.919     1.0      64        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03142b181 55283.5155164    16.503        0.345      3.103    14.709        0.287      1.431    11.368         null      1.178     7.786         null      0.904     1.0      81        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 03138a181 55283.3832124    16.025        0.231      2.506    14.888         null       1.12    11.067         null      1.047     7.419         null      0.913     1.0     111        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08956a097 55475.7672087     15.93        0.187      2.546    15.146         null      1.156      null         null       null      null         null       null     1.0     115        0000 0.672546 134.826514 
+ 1048p408_ac51-028884 105.2776951 40.8250283 07h01m06.65s 40d49m30.10s    2    1     0000 08960a098 55475.8995127     15.52        0.167       2.75    15.777         null      1.181      null         null       null      null         null       null     1.0     116        0000 0.672546 134.826514 

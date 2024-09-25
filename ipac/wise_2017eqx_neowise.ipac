@@ -1,0 +1,131 @@
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ sigra (arcsec)
+\ ___ uncertainty in RA
+\ sigdec (arcsec)
+\ ___ uncertainty in DEC
+\ sigradec (arcsec)
+\ ___ uncertainty cross-term
+\ glon (deg)
+\ ___ galactic longitude
+\ glat (deg)
+\ ___ galactic latitude
+\ elon (deg)
+\ ___ ecliptic longitude
+\ elat (deg)
+\ ___ ecliptic latitude
+\ w1mpro (mag)
+\ ___ instrumental profile-fit photometry magnitude, band 1
+\ w1sigmpro (mag)
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 1
+\ w1snr
+\ ___ instrumental profile-fit photometry S/N ratio, band 1
+\ w1rchi2
+\ ___ instrumental profile-fit photometry reduced chi^2, band 1
+\ w2mpro (mag)
+\ ___ instrumental profile-fit photometry magnitude, band 2
+\ w2sigmpro (mag)
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 2
+\ w2snr
+\ ___ instrumental profile-fit photometry S/N ratio, band 2
+\ w2rchi2
+\ ___ instrumental profile-fit photometry reduced chi^2, band 2
+\ rchi2
+\ ___ instrumental profile-fit photometry reduced chi squared, total
+\ nb
+\ ___ number of blend components used in each fit
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ w1sat
+\ ___ fraction of pixels saturated, band 1
+\ w2sat
+\ ___ fraction of pixels saturated, band 2
+\ satnum
+\ ___ minimum sample at which saturation occurs, 1 char per band
+\ cc_flags
+\ ___ prioritized artifacts affecting the source in each band
+\ det_bit
+\ ___ bit-encoded number(10) indicating detection for each band
+\ ph_qual
+\ ___ photometric quality of each band (A=highest, U=upper limit)
+\ sso_flg
+\ ___ known solar system object association flag (0=no association,
+\ 1=association)
+\ qual_frame
+\ ___ quality score value for frame
+\ qi_fact
+\ ___ quality factor qi value for frame: image quality
+\ saa_sep (deg)
+\ ___ distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ w1frtr
+\ ___ Transient pixel indicator string, band 1
+\ w2frtr
+\ ___ Transient pixel indicator string, band 2
+\ mjd (mjdate)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ allwise_cntr
+\ ___ closest associated ALLWISE Catalog source cntr
+\ r_allwise (arcsec)
+\ ___ radial offset between NEOWISER src and associated ALLWISE src
+\ pa_allwise (deg)
+\ ___ position angle (E of N) of vector from NEOWISER src to associated ALLWISE
+\ src
+\ n_allwise (int)
+\ ___ number of ALLWISE src  entries found within search radius of NEOWISER src
+\ w1mpro_allwise (mag)
+\ ___ W1mpro magnitude  of the associated ALLWISE source
+\ w1sigmpro_allwise (mag)
+\ ___ W1 photometric uncertainty of the associated ALLWISE  source
+\ w2mpro_allwise (mag)
+\ ___ W2mpro magnitude  of the associated ALLWISE  source
+\ w2sigmpro_allwise (mag)
+\ ___ W2 photometric uncertainty of the associated ALLWISE  source
+\ w3mpro_allwise (mag)
+\ ___ W3mpro magnitude  of the associated ALLWISE  source
+\ w3sigmpro_allwise (mag)
+\ ___ W3 photometric uncertainty of the associated ALLWISE source
+\ w4mpro_allwise (mag)
+\ ___ W4mpro magnitude  of the associated ALLWISE  source
+\ w4sigmpro_allwise (mag)
+\ ___ W4 photometric uncertainty of the associated ALLWISE  source
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=14
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE='n'
+\DATETIME='2024-09-25 09:39:08'
+\DATABASE='NEOWISE-R Single Exposure (L1b) Source Table (neowiser_p1bs_psd)'
+\EQUINOX='J2000'
+\SKYAREA='within 5 arcsec of  ra=336.70154 dec=+17.14789 Eq J2000 '
+\StatusFile='/workspace/TMP_Y04rtz_17782/Gator/irsa/17782/log.17782.html'
+\SQL="'WHERE (no constraints)SELECT (48 column names follow in next row.)"
+|         ra|       dec|        clon|        clat| sigra|sigdec|sigradec|      glon|       glat|       elon|      elat|w1mpro|w1sigmpro| w1snr|w1rchi2|w2mpro|w2sigmpro| w2snr|w2rchi2| rchi2|  nb|  na| w1sat| w2sat|satnum|cc_flags|det_bit|ph_qual|sso_flg|qual_frame|qi_fact|saa_sep|moon_masked|w1frtr|w2frtr|           mjd|       allwise_cntr|r_allwise|pa_allwise|n_allwise|w1mpro_allwise|w1sigmpro_allwise|w2mpro_allwise|w2sigmpro_allwise|w3mpro_allwise|w3sigmpro_allwise|w4mpro_allwise|w4sigmpro_allwise|    dist|     angle|
+|     double|    double|        char|        char|double|double|  double|    double|     double|     double|    double|double|   double|double| double|double|   double|double| double|double|long|long|double|double|  char|    char|   long|   char|   long|      long| double| double|       char|  char|  char|        double|               long|   double|    double|     long|        double|           double|        double|           double|        double|           double|        double|           double|  double|    double|
+|        deg|       deg|            |            |arcsec|arcsec|  arcsec|       deg|        deg|        deg|       deg|   mag|      mag|      |       |   mag|      mag|      |       |      |    |    |      |      |      |        |       |       |       |          |       |    deg|           |      |      |        mjdate|                   |   arcsec|       deg|      int|           mag|              mag|           mag|              mag|           mag|              mag|           mag|              mag|  arcsec|       deg|
+|       null|      null|        null|        null|  null|  null|    null|      null|       null|       null|      null|  null|     null|  null|   null|  null|     null|  null|   null|  null|null|null|  null|  null|  null|    null|   null|   null|   null|      null|   null|   null|       null|  null|  null|          null|               null|     null|      null|     null|          null|             null|          null|             null|          null|             null|          null|             null|    null|      null|
+ 336.7014298 17.1479734 22h26m48.34s 17d08m52.70s  1.022 1.0336  -0.5012 80.3822721 -33.5169459 345.3469662 24.8880645 16.618     0.348    3.1  0.6427 14.717      null    1.6  0.8746 0.7245    1    0    0.0    0.0   0000     0000       1      BU       0         10     1.0   47.65          00   0000   0000 58803.73746262 3364116601351052892  1.311807      127.2         1         17.419             0.165         17.278              null         12.067              null          8.947              null  0.48358 308.379713 
+ 336.7014075 17.1478392 22h26m48.34s 17d08m52.22s 1.0323 0.6788  -0.2211 80.3821509 -33.5170367 345.3468851 24.8879502 15.917     0.282    3.8  0.3975 15.401      null   -0.6   0.627 0.4793    1    0    0.0    0.0   0000     0000       1      BU       0         10     1.0 115.958          00   0000   0000 58436.33632311 3364116601351052892  1.163339      105.5         1         17.419             0.165         17.278              null         12.067              null          8.947              null  0.49112 248.137775 
+ 336.7017313 17.1478125 22h26m48.42s 17d08m52.13s 0.9187 1.0799  -0.4806  80.382419 -33.5172523 345.3471854 24.8878012 15.894     0.399    2.7  0.4322 15.622      null   -0.5  0.6644 0.5316    1    0    0.0    0.0   0000     0000       1      CU       0         10     1.0  43.984          00   0010   0000 56816.19390394 3364116601351052892  0.214682      178.1         1         17.419             0.165         17.278              null         12.067              null          8.947              null 0.714766 112.975436 
+ 336.7012977 17.1476318 22h26m48.31s 17d08m51.47s 1.3303 1.2442  -0.2022 80.3818964 -33.5171317 345.3466872 24.8878027 16.773     0.511    2.1  0.6131 15.676      null   -1.5  0.9255 0.7327    1    0    0.0    0.0   0000     0000       1      CU       0         10     1.0   27.79          00   0000   0000 58075.93636762 3364116601351052892  1.560913       73.8         1         17.419             0.165         17.278              null         12.067              null          8.947              null 1.248496 221.882767 
+ 336.7019092 17.1480006 22h26m48.46s 17d08m52.80s  1.112 1.2119  -0.5698 80.3827194 -33.5172133 345.3474405 24.8879049 17.074     0.528    2.1  0.7988 14.864     0.486    2.2  0.4514 0.6105    1    0    0.0    0.0   0000     0000       3      CC       0         10     1.0 106.425          00   0000   0000 58436.46722655 3364116601351052892  1.077443     -145.9         1         17.419             0.165         17.278              null         12.067              null          8.947              null 1.330987  72.593587 
+ 336.7010632 17.1480005 22h26m48.26s 17d08m52.80s 0.7811 0.7054  -0.1358 80.3819662 -33.5167042 345.3466248 24.8882304 16.102     0.254    4.3    1.06 15.208      null    0.9  0.6163 0.8114    1    0    0.0    0.0   0000     0000       1      BU       0          5     0.5  98.439          00   0000   0000 56997.43191765 3364116601351052892  2.471781      111.1         1         17.419             0.165         17.278              null         12.067              null          8.947              null 1.687729  283.63305 
+ 336.7020393 17.1479751 22h26m48.49s 17d08m52.71s 1.2704 0.9926   0.3127  80.382816 -33.5173114 345.3475546 24.8878315 16.401     0.347    3.1  0.8594 14.136      null    1.8  0.9029  0.822    1    0    0.0    0.0   0000     0000       1      BU       0         10     1.0  68.201          00   0010   0000 59167.61705822 3364116601351052892  1.321809     -127.2         1         17.419             0.165         17.278              null         12.067              null          8.947              null 1.744684   79.88657 
+ 336.7018943 17.1483589 22h26m48.45s 17d08m54.09s 0.9965 0.8346  -0.3299 80.3829768  -33.516926 345.3475852 24.8882386 16.218     0.293    3.7   1.697 14.519      null    1.9   1.153  1.376    1    0    0.0    0.0   0000     0000       1      BU       0          5     0.5  38.336          00   0000   0000 58273.35636133 3364116601351052892  2.250718     -165.8         1         17.419             0.165         17.278              null         12.067              null          8.947              null 2.082043  35.829557 
+ 336.7012011 17.1473694 22h26m48.29s 17d08m50.53s 0.9352 0.8221  -0.2888 80.3816122 -33.5172774 345.3464775 24.8875996 16.133     0.296    3.7   0.818 14.852     0.392    2.8  0.1847 0.4916    1    0    0.0    0.0   0000     0000       3      BC       0         10     1.0  68.756          00   0000   0000 60100.67762965 3364116601351052892  2.293246       53.0         1         17.419             0.165         17.278              null         12.067              null          8.947              null 2.207166 211.883416 
+  336.702036 17.1472629 22h26m48.49s 17d08m50.15s 1.0215 1.3576  -0.6395  80.382275 -33.5178626 345.3472352 24.8871809 16.509      null    1.0  0.4993 14.948     0.338    3.2  0.9073  0.664    1    0    0.0    0.0   0000     0000       2      UB       0          5     0.5  62.332          00   0000   0000 57356.58035714 3364116601351052892   2.04823      -30.5         1         17.419             0.165         17.278              null         12.067              null          8.947              null 2.829804 142.918527 
+  336.701193 17.1486779 22h26m48.29s 17d08m55.24s 0.5275 0.6155   -0.036 80.3825935 -33.5162562 345.3470506 24.8888005 15.425     0.252    4.3  0.4299 15.095      null    0.8   0.716 0.5388    1    0    0.0    0.0   0000     0000       1      BU       0         10     1.0  34.342          00   1111   0000  58277.4794376                null      null       null         0           null              null           null              null           null              null           null              null 3.077374 337.177102 
+ 336.7017112 17.1488496 22h26m48.41s 17d08m55.86s 1.2779 1.3687  -0.6638 80.3831845 -33.5164347 345.3476265 24.8887582 16.681     0.503    2.2   1.055 14.611      null    1.2  0.8587 0.9187    1    0    0.0    0.0   0000     0000       1      CU       0         10     1.0  47.922          00   0000   0000 56997.03755127                null      null       null         0           null              null           null              null           null              null           null              null 3.504399    9.67455 
+   336.70049   17.14815 22h26m48.12s 17d08m53.34s 1.2986 1.4384   0.5497 80.3815689 -33.5162431 345.3461385 24.8885878 16.983      null   -0.2  0.9366 14.585     0.461    2.4  0.6933 0.7888    1    0    0.0    0.0   0000     0000       2      UC       0         10     1.0 114.591          00   0000   0010 56816.78602454                null      null       null         0           null              null           null              null           null              null           null              null 3.731272 284.528139 
+ 336.7027996 17.1477788 22h26m48.67s 17d08m52.00s 1.0208 1.0906  -0.1562 80.3833445 -33.5179215 345.3482005 24.8873592  17.11      null    0.0  0.8446  14.88     0.337    3.2  0.7856  0.776    1    0    0.0    0.0   0000     0000       2      UB       0         10     1.0  29.345          00   0000   0000 57714.82473861                null      null       null         0           null              null           null              null           null              null           null              null 4.351439  95.278326 
