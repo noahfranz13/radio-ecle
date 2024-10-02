@@ -266,14 +266,14 @@ def only_good_data_v1(allwise, neowise):
         (neowise['moon_masked'] == '00')
     ]
     neowise_postfilter_n = len(neowise)
-    print(f'Filtered out {neowise_prefilter_n-neowise_postfilter_n} neowise points, leaving {neowise_postfilter_n}')
+    #print(f'Filtered out {neowise_prefilter_n-neowise_postfilter_n} neowise points, leaving {neowise_postfilter_n}')
     
     cntr_list = []
     for data in neowise:
         if data['allwise_cntr'] not in cntr_list and data['allwise_cntr']>10.:
             cntr_list.append(data['allwise_cntr'])
     
-    print(len(neowise))
+    #print(len(neowise))
     
     if len(cntr_list) >= 2:
         
@@ -300,6 +300,6 @@ def only_good_data_v1(allwise, neowise):
         (allwise['qi_fact'] > 0.9)
     ]
     allwise_postfilter_n = len(neowise)
-    print(f'Filtered out {allwise_prefilter_n-allwise_postfilter_n} allwise points, leaving {allwise_postfilter_n}')
+    #print(f'Filtered out {allwise_prefilter_n-allwise_postfilter_n} allwise points, leaving {allwise_postfilter_n}')
 
     return allwise, neowise
