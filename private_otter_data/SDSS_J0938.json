@@ -507,6 +507,8 @@
                 "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C"
             ],
             "computed": false,
@@ -534,7 +536,9 @@
                 424.1,
                 10.55102234,
                 1.283251145,
-                1.11433993
+                1.11433993,
+                3.76,
+                1.93
             ],
             "raw_err": [
                 28.3,
@@ -554,7 +558,9 @@
                 38.5,
                 1.082563249,
                 0.1256878074,
-                0.140092856
+                0.140092856,
+                0.1400000006,
+                0.150000006
             ],
             "raw_units": [
                 "uJy",
@@ -572,6 +578,8 @@
                 "uJy",
                 "uJy",
                 "uJy",
+                "mJy",
+                "mJy",
                 "mJy",
                 "mJy",
                 "mJy"
@@ -594,7 +602,9 @@
                 57911.79545,
                 58054.46153,
                 59961.44979,
-                59125.77335
+                59125.77335,
+                2451526.264,
+                2451526.264
             ],
             "date_format": [
                 "mjd",
@@ -614,9 +624,13 @@
                 "mjd",
                 "mjd",
                 "mjd",
-                "mjd"
+                "mjd",
+                "jd",
+                "jd"
             ],
             "upperlimit": [
+                false,
+                false,
                 false,
                 false,
                 false,
@@ -654,7 +668,9 @@
                 "9.774GHz",
                 "3.0GHz",
                 "3.0GHz",
-                "3.0GHz"
+                "3.0GHz",
+                "1.4GHz",
+                "1.4GHz"
             ],
             "obs_type": "radio",
             "reducer": [
@@ -675,7 +691,9 @@
                 "VLA pipeline (Older Version)",
                 "VLASS 1.1",
                 "VLASS 3.1",
-                "VLASS 2.1"
+                "VLASS 2.1",
+                "2011ApJ...737...45O",
+                "2011ApJ...737...45O"
             ],
             "val_k": false,
             "val_s": false,
@@ -3923,6 +3941,12 @@
             "filter_key": "3.0GHz",
             "filter_name": "S",
             "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
             "wave_units": "nm"
         }
     ],

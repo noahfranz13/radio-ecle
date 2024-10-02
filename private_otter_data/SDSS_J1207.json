@@ -396,6 +396,7 @@
                 "2024arXiv240216951C",
                 "2024arXiv240216951C",
                 "2024arXiv240216951C",
+                "2024arXiv240216951C",
                 "2024arXiv240216951C"
             ],
             "computed": false,
@@ -408,39 +409,46 @@
             "raw": [
                 0.3300884136,
                 0.4235433273,
-                0.3650572756
+                0.3650572756,
+                1.27
             ],
             "raw_err": [
                 0.0,
                 0.0,
-                0.0
+                0.0,
+                0.1400000006
             ],
             "raw_units": "mJy",
             "date": [
                 58081.5827,
                 59098.87318,
-                59987.33252
+                59987.33252,
+                2450062.059
             ],
             "date_format": [
                 "mjd",
                 "mjd",
-                "mjd"
+                "mjd",
+                "jd"
             ],
             "upperlimit": [
                 true,
                 true,
-                true
+                true,
+                false
             ],
             "filter_key": [
                 "3.0GHz",
                 "3.0GHz",
-                "3.0GHz"
+                "3.0GHz",
+                "1.4GHz"
             ],
             "obs_type": "radio",
             "reducer": [
                 "VLASS 1.1",
                 "VLASS 2.1",
-                "VLASS 3.1"
+                "VLASS 3.1",
+                "2011ApJ...737...45O"
             ],
             "val_k": false,
             "val_s": false,
@@ -2938,6 +2946,12 @@
             "filter_key": "3.0GHz",
             "filter_name": "S",
             "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
             "wave_units": "nm"
         }
     ],

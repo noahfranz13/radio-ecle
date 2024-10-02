@@ -432,6 +432,8 @@
                 "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C"
             ],
             "computed": false,
@@ -448,7 +450,9 @@
                 0.3186051706,
                 0.3556422334,
                 0.3319307097,
-                0.3673826889
+                0.3673826889,
+                1.21,
+                1.74
             ],
             "raw_err": [
                 13.9,
@@ -457,12 +461,16 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0
+                0.0,
+                0.150000006,
+                0.150000006
             ],
             "raw_units": [
                 "uJy",
                 "uJy",
                 "uJy",
+                "mJy",
+                "mJy",
                 "mJy",
                 "mJy",
                 "mJy",
@@ -475,7 +483,9 @@
                 59082.95099,
                 59082.95099,
                 59982.51779,
-                58022.50702
+                58022.50702,
+                2450694.79,
+                2450694.79
             ],
             "date_format": [
                 "mjd",
@@ -484,7 +494,9 @@
                 "mjd",
                 "mjd",
                 "mjd",
-                "mjd"
+                "mjd",
+                "jd",
+                "jd"
             ],
             "upperlimit": [
                 false,
@@ -493,7 +505,9 @@
                 true,
                 true,
                 true,
-                true
+                true,
+                false,
+                false
             ],
             "filter_key": [
                 "4.999GHz",
@@ -502,7 +516,9 @@
                 "3.0GHz",
                 "3.0GHz",
                 "3.0GHz",
-                "3.0GHz"
+                "3.0GHz",
+                "1.4GHz",
+                "1.4GHz"
             ],
             "obs_type": "radio",
             "reducer": [
@@ -512,7 +528,9 @@
                 "VLASS 2.1",
                 "VLASS 2.1",
                 "VLASS 3.1",
-                "VLASS 1.1"
+                "VLASS 1.1",
+                "2011ApJ...737...45O",
+                "2011ApJ...737...45O"
             ],
             "val_k": false,
             "val_s": false,
@@ -3252,6 +3270,12 @@
             "filter_key": "3.0GHz",
             "filter_name": "S",
             "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
             "wave_units": "nm"
         }
     ],

@@ -576,6 +576,7 @@
                 "2017TNSTR.895....1T",
                 "2017TNSTR.895....1T",
                 "2017TNSTR.895....1T",
+                "2017TNSTR.895....1T",
                 "2017TNSTR.895....1T"
             ],
             "computed": false,
@@ -588,39 +589,46 @@
             "raw": [
                 0.3354850856,
                 0.4590184079,
-                0.4465423062
+                0.4465423062,
+                1.46
             ],
             "raw_err": [
                 0.0,
                 0.1245654282,
-                0.1426225361
+                0.1426225361,
+                0.150000006
             ],
             "raw_units": "mJy",
             "date": [
                 58081.74411,
                 60004.40297,
-                59096.07597
+                59096.07597,
+                2450063.905
             ],
             "date_format": [
                 "mjd",
                 "mjd",
-                "mjd"
+                "mjd",
+                "jd"
             ],
             "upperlimit": [
                 true,
+                false,
                 false,
                 false
             ],
             "filter_key": [
                 "3.0GHz",
                 "3.0GHz",
-                "3.0GHz"
+                "3.0GHz",
+                "1.4GHz"
             ],
             "obs_type": "radio",
             "reducer": [
                 "VLASS 1.1",
                 "VLASS 3.1",
-                "VLASS 2.1"
+                "VLASS 2.1",
+                "2011ApJ...737...45O"
             ],
             "val_k": false,
             "val_s": false,
@@ -4378,6 +4386,12 @@
             "filter_key": "3.0GHz",
             "filter_name": "S",
             "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
             "wave_units": "nm"
         }
     ],

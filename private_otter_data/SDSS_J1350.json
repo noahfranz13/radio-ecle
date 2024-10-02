@@ -431,6 +431,7 @@
                 "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
                 "2024MNRAS.528.7076C"
             ],
             "computed": false,
@@ -446,7 +447,8 @@
                 31.1,
                 3.093494995,
                 0.4186913834,
-                0.3647374182
+                0.3647374182,
+                1.16
             ],
             "raw_err": [
                 15.8,
@@ -454,12 +456,14 @@
                 9.2,
                 1.02289076,
                 0.0,
-                0.0
+                0.0,
+                0.1400000006
             ],
             "raw_units": [
                 "uJy",
                 "uJy",
                 "uJy",
+                "mJy",
                 "mJy",
                 "mJy",
                 "mJy"
@@ -470,7 +474,8 @@
                 57459.24956,
                 58027.96962,
                 59109.99909,
-                59966.41655
+                59966.41655,
+                2449107.818
             ],
             "date_format": [
                 "mjd",
@@ -478,7 +483,8 @@
                 "mjd",
                 "mjd",
                 "mjd",
-                "mjd"
+                "mjd",
+                "jd"
             ],
             "upperlimit": [
                 false,
@@ -486,7 +492,8 @@
                 false,
                 false,
                 true,
-                true
+                true,
+                false
             ],
             "filter_key": [
                 "4.999GHz",
@@ -494,7 +501,8 @@
                 "5.957GHz",
                 "3.0GHz",
                 "3.0GHz",
-                "3.0GHz"
+                "3.0GHz",
+                "1.4GHz"
             ],
             "obs_type": "radio",
             "reducer": [
@@ -503,7 +511,8 @@
                 "Kate with pwkit",
                 "VLASS 1.1",
                 "VLASS 2.1",
-                "VLASS 3.1"
+                "VLASS 3.1",
+                "2011ApJ...737...45O"
             ],
             "val_k": false,
             "val_s": false,
@@ -3243,6 +3252,12 @@
             "filter_key": "3.0GHz",
             "filter_name": "S",
             "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
             "wave_units": "nm"
         }
     ],

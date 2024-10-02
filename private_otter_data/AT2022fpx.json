@@ -1229,6 +1229,7 @@
                 "2022TNSTR.836....1T",
                 "2022TNSTR.836....1T",
                 "2022TNSTR.836....1T",
+                "2022TNSTR.836....1T",
                 "2022TNSTR.836....1T"
             ],
             "computed": false,
@@ -1242,45 +1243,52 @@
                 0.4797744234,
                 0.314202344,
                 0.5397781646,
-                0.3402861335
+                0.3402861335,
+                2.38
             ],
             "raw_err": [
                 0.0,
                 0.0,
                 0.0,
-                0.0
+                0.0,
+                0.1299999952
             ],
             "raw_units": "mJy",
             "date": [
                 59064.12678,
                 58068.8376,
                 59064.12678,
-                59984.55133
+                59984.55133,
+                2450576.307
             ],
             "date_format": [
                 "mjd",
                 "mjd",
                 "mjd",
-                "mjd"
+                "mjd",
+                "jd"
             ],
             "upperlimit": [
                 true,
                 true,
                 true,
-                true
+                true,
+                false
             ],
             "filter_key": [
                 "3.0GHz",
                 "3.0GHz",
                 "3.0GHz",
-                "3.0GHz"
+                "3.0GHz",
+                "1.4GHz"
             ],
             "obs_type": "radio",
             "reducer": [
                 "VLASS 2.1",
                 "VLASS 1.1",
                 "VLASS 2.1",
-                "VLASS 3.1"
+                "VLASS 3.1",
+                "2011ApJ...737...45O"
             ],
             "val_k": false,
             "val_s": false,
@@ -9602,6 +9610,12 @@
             "filter_key": "3.0GHz",
             "filter_name": "S",
             "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
             "wave_units": "nm"
         }
     ],
