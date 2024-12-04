@@ -54,6 +54,9 @@
             "date_type": "discovery"
         }
     ],
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email: nfranz@arizona.edu"
+    },
     "photometry": [
         {
             "reference": "private",

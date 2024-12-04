@@ -47,68 +47,47 @@
             "date_format": "jd",
             "reference": [
                 "2020TNSTR3060....1N",
-                "2020TNSTR3060....1N",
-                "2020TNSTR3060....1N",
-                "2020TNSTR3060....1N",
                 "2020TNSTR3060....1N"
             ],
             "computed": false,
             "date_type": "discovery"
         }
     ],
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email: nfranz@arizona.edu"
+    },
     "photometry": [
         {
             "reference": "private",
             "raw": [
                 0.3486923278,
-                0.4455990714,
-                1.81,
-                1.62,
-                1.3
+                0.4455990714
             ],
             "raw_err": [
                 0.0,
-                0.0,
-                0.1400000006,
-                0.1400000006,
-                0.1299999952
+                0.0
             ],
             "raw_units": "mJy",
             "date": [
                 59496.56411,
-                58628.89342,
-                2450126.235,
-                2450126.235,
-                2450178.349
+                58628.89342
             ],
             "date_format": [
                 "mjd",
-                "mjd",
-                "jd",
-                "jd",
-                "jd"
+                "mjd"
             ],
             "upperlimit": [
                 true,
-                true,
-                false,
-                false,
-                false
+                true
             ],
             "filter_key": [
                 "3.0GHz",
-                "3.0GHz",
-                "1.4GHz",
-                "1.4GHz",
-                "1.4GHz"
+                "3.0GHz"
             ],
             "obs_type": "radio",
             "reducer": [
                 "VLASS 2.2",
-                "VLASS 1.2",
-                "2011ApJ...737...45O",
-                "2011ApJ...737...45O",
-                "2011ApJ...737...45O"
+                "VLASS 1.2"
             ],
             "val_k": false,
             "val_s": false,
@@ -122,12 +101,6 @@
             "filter_key": "3.0GHz",
             "filter_name": "S",
             "wave_eff": 99930819.33333333,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "1.4GHz",
-            "filter_name": "L",
-            "wave_eff": 214137470.0,
             "wave_units": "nm"
         }
     ],
