@@ -163,3 +163,4 @@ cython_debug/
 
 # big datasets
 data/*
+*chains.json
