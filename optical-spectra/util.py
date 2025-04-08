@@ -111,7 +111,7 @@ def pretty_labels(wave, dist=1100):
 
 def element(name, lines, style, color, row=1, group=False, low=3900, high=6900, dist=1100, ax=plt, start=0.45, spacer=0.65):
     locat = start+(row*spacer)
-    ax.vlines(lines, -4, 10, linestyle=style, color=color,  alpha=0.6)
+    ax.vlines(lines, -4, 12, linestyle=style, color=color,  alpha=0.4)
     
     if group==True:
         lines_g = pretty_labels(lines, dist=dist)     
@@ -186,5 +186,5 @@ def linelist(ax=plt, spacer=0.45, start=6.05, low=3900, high=6900):
         element('Fe X', [6376], '-', 'C9', row=0, ax=ax, **element_kwargs),
         element('Fe XI', [7894], '-', 'C9', row=0, ax=ax, **element_kwargs),
         element('Fe XIV', [5304], '-', 'C9', row=0, ax=ax, **element_kwargs),
-        element('S XII', )
+        # element('S XII', )
     ]
