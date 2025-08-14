@@ -19,7 +19,7 @@
             "reference": [
                 "2022TNSTR.836....1T"
             ],
-            "coordinate_type": "equitorial"
+            "coordinate_type": "equatorial"
         }
     ],
     "distance": [
@@ -32,15 +32,17 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR1771....1P"
-            ]
-        }
-    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2022TNSCR1771....1P"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2459670.01981",

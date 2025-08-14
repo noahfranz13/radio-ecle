@@ -19,7 +19,7 @@
             "reference": [
                 "2018TNSTR.987....1F"
             ],
-            "coordinate_type": "equitorial"
+            "coordinate_type": "equatorial"
         }
     ],
     "distance": [
@@ -32,15 +32,17 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2018TNSCR1182....1H"
-            ]
-        }
-    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2018TNSCR1182....1H"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2458269.81",
@@ -51100,12 +51102,12 @@
     ],
     "reference_alias": [
         {
-            "name": "2018TNSCR1182....1H",
-            "human_readable_name": "Hosseinzadeh, I. A. J. B. D. H. C. M. A. H. G. et al. (2018)"
-        },
-        {
             "name": "2018TNSTR.987....1F",
             "human_readable_name": "Fremling, C. (2018)"
+        },
+        {
+            "name": "2018TNSCR1182....1H",
+            "human_readable_name": "Hosseinzadeh, I. A. J. B. D. H. C. M. A. H. G. et al. (2018)"
         }
     ]
 }

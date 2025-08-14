@@ -19,7 +19,7 @@
             "reference": [
                 "2024MNRAS.535.1095C"
             ],
-            "coordinate_type": "equitorial"
+            "coordinate_type": "equatorial"
         }
     ],
     "distance": [
@@ -32,15 +32,17 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2024MNRAS.528.7076C"
-            ]
-        }
-    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2024MNRAS.528.7076C"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2006-04-23",

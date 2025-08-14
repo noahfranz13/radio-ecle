@@ -1,0 +1,106 @@
+\ source_id_mf
+\ ___ Source id from Multiframe (coadd id and source number)
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ nb
+\ ___ number of PSF components used in profile fit for source
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ cc_flags
+\ ___ contamination and confusion flags affecting the source in each band
+\ frame_id
+\ ___ frameset identifier
+\ mjd (d)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ w1mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 1
+\ w1sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 1
+\ w1rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 1
+\ w2mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 2
+\ w2sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 2
+\ w2rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 2
+\ w3mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 3
+\ w3sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 3
+\ w3rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 3
+\ w4mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 4
+\ w4sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 4
+\ w4rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 4
+\ qi_fact
+\ ___ Frame image quality score
+\ saa_sep (deg)
+\ ___ SAA separation. Distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=37
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE='n'
+\DATETIME='2025-07-30 09:19:30'
+\DATABASE='AllWISE Multiepoch Photometry Table (allwise_p3as_mep)'
+\EQUINOX='J2000'
+\SKYAREA='within 5 arcsec of  ra=38.44554 dec=-1.02455 Eq J2000 '
+\StatusFile='/workspace/TMP_Ulfgev_17247/Gator/irsa/17247/log.17247.html'
+\SQL="'WHERE (no constraints)SELECT (25 column names follow in next row.)"
+|        source_id_mf|        ra|       dec|        clon|         clat|  nb|  na|cc_flags| frame_id|          mjd|w1mpro_ep|w1sigmpro_ep|w1rchi2_ep|w2mpro_ep|w2sigmpro_ep|w2rchi2_ep|w3mpro_ep|w3sigmpro_ep|w3rchi2_ep|w4mpro_ep|w4sigmpro_ep|w4rchi2_ep|qi_fact|saa_sep|moon_masked|    dist|     angle|
+|                char|    double|    double|        char|         char|long|long|    char|     char|       double|   double|      double|    double|   double|      double|    double|   double|      double|    double|   double|      double|    double| double|   long|       char|  double|    double|
+|                    |       deg|       deg|            |             |    |    |        |         |            d|      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |       |    deg|           |  arcsec|       deg|
+|                null|      null|      null|        null|         null|null|null|    null|     null|         null|     null|        null|      null|     null|        null|      null|     null|        null|      null|     null|        null|      null|   null|   null|       null|    null|      null|
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12205a105 55583.2004222    14.824        0.114      1.284    14.208        0.168      1.185      null         null       null      null         null       null     1.0      85        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12209a104 55583.3325992    14.671        0.081      1.136    14.707        0.248      0.985      null         null       null      null         null       null     1.0     114        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01145a103 55217.4109233    14.829        0.092      1.294    15.184        0.403      1.139    11.202         null      0.994     7.623         null      1.108     1.0      90        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01222a131 55219.9914824    14.519        0.075      1.361      null         null       null    11.366         null      1.016      7.69         null      1.097     1.0      22        0111 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01141a102 55217.2784912     14.68        0.083      1.136     14.48         0.21      0.997    11.121        0.438      1.144     7.437         null      1.153     1.0     108        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01137a102 55217.1461865    14.797        0.091      1.238    14.938        0.304      1.042    11.224         null      1.013     7.689         null      1.099     1.0      67        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01134a126 55217.0799704    14.655        0.081      1.139    14.921        0.303      1.036    11.424         null      1.035     7.944         null      1.092     1.0      45        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12205a104 55583.2002949     14.78        0.093      1.212    14.442        0.196      1.009      null         null       null      null         null       null     1.0      84        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12201a105 55583.0681179     14.68        0.086      1.136    15.034        0.372      1.077      null         null       null      null         null       null     1.0      42        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12197a104 55582.9358136    14.702        0.084       1.14    14.668        0.262      0.981      null         null       null      null         null       null     1.0       9        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12194a129 55582.8697251    14.735        0.087      1.161    14.365        0.198      1.046      null         null       null      null         null       null     1.0       2        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01133a102 55217.0138817    14.778         0.09      1.209    14.204        0.148       1.19    10.958         null      0.997     7.342         null      1.171     1.0      26        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01130a126 55216.9476656    14.617        0.078      1.165    14.334        0.192      1.066    11.097         null      0.995     7.395         null      1.165     1.0      11        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01129a103  55216.881577    14.614        0.081      1.169    14.398        0.191      1.028    11.224         null      0.995     7.772         null      1.098     1.0       2        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01129a102 55216.8814496    14.568        0.084      1.238    14.591        0.212      0.979    11.121        0.504      1.144     7.937         null      1.094     1.0       2        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06809b178 55404.8035942    14.599        0.074      1.186    14.685        0.288      0.982    10.784         null      1.021     7.255         null      1.208     1.0     118        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06813b178 55404.9358979    14.759         0.09      1.185    14.751         0.24      0.991    11.127         null      0.993     7.849         null      1.384     1.0      82        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06817b178 55405.0682018    14.703        0.087      1.141    14.334         0.19      1.067    10.804         null      1.013     7.724         null      1.094     1.0      42        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06820a152   55405.13429    14.718        0.082      1.148    14.251        0.201      1.138    11.019         null      0.993     7.542         null      1.127     1.0      28        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06821b177 55405.2003782      14.6        0.078      1.186    14.857        0.297      1.017    11.349         null      1.028     7.748         null      1.095     1.0      21        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06821b178 55405.2005055    14.664        0.082      1.137    14.609        0.238      0.979    10.527         null      1.078     7.762         null      1.096     1.0      20        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06824a152 55405.2665938    14.739        0.087      1.164    14.975        0.336      1.055    10.898         null      1.003     7.515         null      1.093     1.0      12        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06825b177  55405.332682    14.759        0.101      1.184    14.666        0.264       0.98    10.854         null      1.005     7.857         null      1.094     1.0       6        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06828a152 55405.3988976    14.666        0.091      1.137    14.663        0.252       0.98    11.161         null      1.049     7.855         null      1.095     1.0       7        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06832a152 55405.5312013    14.669        0.079      1.136    15.305        0.471      1.193    11.296         null      1.044     7.792         null      1.102     1.0      34        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06836a153 55405.6635051    14.565        0.072      1.244     14.65        0.253      0.979    11.337         null       1.04     7.847         null      1.138     1.0      75        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 06840a153  55405.795809    14.509        0.078      1.392    14.427        0.198      1.015    10.776         null      1.023     7.757         null       1.44     1.0     116        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 07004a148 55411.2198802    14.672        0.079      1.136      null         null       null    11.204         null      0.997     7.467         null      1.137     1.0      20        0111 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12178a128 55582.3406354    14.693        0.095      1.138    14.784        0.302      0.998      null         null       null      null         null       null     0.5     111        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12183a097 55582.4729397    14.738        0.098      1.163    14.675        0.271      0.981      null         null       null      null         null       null     1.0      70        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12186a129 55582.6052439     14.62        0.079      1.162    14.753        0.272      0.992      null         null       null      null         null       null     1.0      31        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12189a105 55582.6713324    14.622        0.076      1.161    14.356        0.178      1.052      null         null       null      null         null       null     1.0      21        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12190a128 55582.7374208    14.839        0.092      1.313    14.873        0.315      1.021      null         null       null      null         null       null     1.0      13        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 12193a105 55582.8036366    14.689        0.087      1.137    14.771        0.259      0.995      null         null       null      null         null       null     0.5       3        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01118b126 55216.5506241    14.675        0.081      1.136    14.631        0.254      0.979    11.395         null      1.014     7.894         null      1.131     1.0      46        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01122a126 55216.6830562    14.584        0.078      1.209    14.765        0.228      0.994    11.387         null      1.028     7.828         null      1.151     1.0      20        0000 0.137627 215.306892 
+ 0378m016_ac51-051277 38.4455179 -1.0245812 02h33m46.92s -01d01m28.49s    1    0     0000 01126a126  55216.815361    14.636        0.076      1.149    14.657        0.264       0.98    10.689         null      1.031     7.789         null      1.092     1.0       2        0000 0.137627 215.306892 

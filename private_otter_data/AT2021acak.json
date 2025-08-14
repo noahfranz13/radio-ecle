@@ -19,7 +19,7 @@
             "reference": [
                 "2023RAA....23b5012L"
             ],
-            "coordinate_type": "equitorial"
+            "coordinate_type": "equatorial"
         }
     ],
     "distance": [
@@ -32,15 +32,17 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023RAA....23b5012L"
-            ]
-        }
-    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2023RAA....23b5012L"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2459510.12",

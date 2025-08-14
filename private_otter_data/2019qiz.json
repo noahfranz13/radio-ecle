@@ -19,7 +19,7 @@
             "reference": [
                 "2019TNSTR1857....1F"
             ],
-            "coordinate_type": "equitorial"
+            "coordinate_type": "equatorial"
         }
     ],
     "distance": [
@@ -32,22 +32,22 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019TNSCR1921....1S"
-            ]
-        }
-    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2019TNSCR1921....1S"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2458745.9998032",
             "date_format": "jd",
             "reference": [
-                "2019TNSTR1857....1F",
-                "2019TNSTR1857....1F",
                 "2019TNSTR1857....1F",
                 "2019TNSTR1857....1F",
                 "2019TNSTR1857....1F",
@@ -3485,41 +3485,27 @@
         {
             "reference": "private",
             "raw": [
-                0.3543250914,
-                0.5035892387,
-                0.5405177234
+                0.3543250914
             ],
             "raw_err": [
-                0.0,
-                0.0,
                 0.0
             ],
             "raw_units": "mJy",
             "date": [
-                58128.2389,
-                60028.00797,
-                59142.42657
+                58128.2389
             ],
             "date_format": [
-                "mjd",
-                "mjd",
                 "mjd"
             ],
             "upperlimit": [
-                true,
-                true,
                 true
             ],
             "filter_key": [
-                "3.0GHz",
-                "3.0GHz",
                 "3.0GHz"
             ],
             "obs_type": "radio",
             "reducer": [
-                "VLASS 1.1",
-                "VLASS 3.1",
-                "VLASS 2.1"
+                "VLASS 1.1"
             ],
             "val_k": false,
             "val_s": false,

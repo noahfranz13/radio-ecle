@@ -19,7 +19,7 @@
             "reference": [
                 "2022MNRAS.517...76O"
             ],
-            "coordinate_type": "equitorial"
+            "coordinate_type": "equatorial"
         }
     ],
     "distance": [
@@ -32,15 +32,17 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022MNRAS.517...76O"
-            ]
-        }
-    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2022MNRAS.517...76O"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2457968.8499884",
