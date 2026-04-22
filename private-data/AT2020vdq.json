@@ -1,0 +1,148 @@
+{
+    "name": {
+        "default_name": "AT2020vdq",
+        "alias": [
+            {
+                "value": "AT2020vdq",
+                "reference": [
+                    "2020TNSTR3060....1N"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "10:08:53.44",
+            "dec": "+42:43:00.22",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2020TNSTR3060....1N"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.045,
+            "reference": [
+                "2023arXiv231003782S"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2023arXiv231003782S"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2459126.9916204",
+            "date_format": "jd",
+            "reference": [
+                "2020TNSTR3060....1N",
+                "2020TNSTR3060....1N",
+                "2020TNSTR3060....1N",
+                "2020TNSTR3060....1N",
+                "2020TNSTR3060....1N"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email: nfranz@arizona.edu"
+    },
+    "photometry": [
+        {
+            "reference": "private",
+            "raw": [
+                0.994657835690305,
+                1.68151686202166,
+                0.820409679348232,
+                0.486426105424079,
+                0.422903224563759
+            ],
+            "raw_err": [
+                0.0,
+                0.114592025561541,
+                0.137298324639258,
+                0.0,
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                49794.0,
+                59496.564109375,
+                60476.8952083333,
+                58628.8934192708,
+                50496.0
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                false,
+                false,
+                true,
+                true
+            ],
+            "filter_key": [
+                "1.4GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "1.4351GHz"
+            ],
+            "obs_type": "radio",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4351GHz",
+            "filter_name": "L",
+            "wave_eff": 208900047.38345757,
+            "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2025ApJ...985..175S",
+            "human_readable_name": "Somalwar, Jean J. et al. (2025)"
+        },
+        {
+            "name": "2020TNSTR3060....1N",
+            "human_readable_name": "Nordin, J. et al. (2020)"
+        }
+    ]
+}

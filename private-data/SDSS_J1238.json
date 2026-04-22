@@ -1,0 +1,225 @@
+{
+    "name": {
+        "default_name": "SDSS_J1238",
+        "alias": [
+            {
+                "value": "SDSS_J1238",
+                "reference": [
+                    "2024MNRAS.535.1095C"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "12:38:29.5894",
+            "dec": "+18:52:37.5554",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2024MNRAS.535.1095C"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.253,
+            "reference": [
+                "2024MNRAS.528.7076C"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2024MNRAS.528.7076C"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2008-01-16",
+            "date_format": "iso",
+            "reference": [
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email: nfranz@arizona.edu"
+    },
+    "photometry": [
+        {
+            "reference": "2024A&A...682A..34M",
+            "raw": [
+                2.16715399e-13
+            ],
+            "raw_err": [
+                4.70520534e-14
+            ],
+            "raw_units": "erg/s/cm^2",
+            "date": [
+                59009.594
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "upperlimit": [
+                false
+            ],
+            "filter_key": [
+                "0.2-2.3keV"
+            ],
+            "obs_type": "xray",
+            "telescope": "eROSITA",
+            "raw_err_detail": {
+                "upper": [
+                    4.70520534e-14
+                ],
+                "lower": [
+                    4.70520534e-14
+                ]
+            },
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false,
+            "xray_model": [
+                {
+                    "model_name": "powerlaw",
+                    "param_names": [
+                        "Gamma"
+                    ],
+                    "param_values": [
+                        2.0
+                    ],
+                    "param_value_upper_err": [
+                        0.0
+                    ],
+                    "param_value_lower_err": [
+                        0.0
+                    ],
+                    "param_upperlimit": [
+                        false
+                    ],
+                    "param_units": [
+                        "none"
+                    ],
+                    "model_reference": "2024A&A...682A..34M",
+                    "min_energy": 0.2000000000000001,
+                    "max_energy": 2.3,
+                    "energy_units": "keV"
+                }
+            ]
+        },
+        {
+            "reference": "private",
+            "raw": [
+                1.27304493798874,
+                0.381760447855023,
+                0.448447881887097,
+                0.384648731646461,
+                0.437244716180215
+            ],
+            "raw_err": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                49794.0,
+                60462.193328125,
+                58563.3371536458,
+                59538.5176041667,
+                51179.0
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "filter_key": [
+                "1.4GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "1.4351GHz"
+            ],
+            "obs_type": "radio",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4351GHz",
+            "filter_name": "L",
+            "wave_eff": 208900047.38345757,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "0.2-2.3keV",
+            "filter_name": "0.2-2.3keV",
+            "wave_eff": 3.36913582698914,
+            "wave_units": "nm",
+            "wave_min": 0.539061732318262,
+            "wave_max": 6.19920992166001
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2024A&A...682A..34M",
+            "human_readable_name": "Merloni, A. et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.528.7076C",
+            "human_readable_name": "Clark, Peter et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.535.1095C",
+            "human_readable_name": "Callow, J. et al. (2024)"
+        }
+    ]
+}

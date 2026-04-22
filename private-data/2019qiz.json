@@ -1,0 +1,402 @@
+{
+    "name": {
+        "default_name": "2019qiz",
+        "alias": [
+            {
+                "value": "2019qiz",
+                "reference": [
+                    "2019TNSTR1857....1F"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "04:46:37.880",
+            "dec": "-10:13:34.90",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2019TNSTR1857....1F"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.0151,
+            "reference": [
+                "2019TNSTR1857....1F"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2019TNSCR1921....1S"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2458745.9998032",
+            "date_format": "jd",
+            "reference": [
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F",
+                "2019TNSTR1857....1F"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email: nfranz@arizona.edu"
+    },
+    "photometry": [
+        {
+            "reference": "2024Natur.634..804N",
+            "raw": [
+                7.12402432008673e-12,
+                2.24633041445358e-13
+            ],
+            "raw_err": [
+                1.7092913884798298e-12,
+                4.81017625710774e-14
+            ],
+            "raw_units": "erg/s/cm^2",
+            "date": [
+                60365.5,
+                60366.5
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false
+            ],
+            "filter_key": [
+                "0.3-1keV",
+                "0.3-1keV"
+            ],
+            "obs_type": "xray",
+            "telescope": "Chandra",
+            "raw_err_detail": {
+                "upper": [
+                    1.7092913884798298e-12,
+                    4.81017625710774e-14
+                ],
+                "lower": [
+                    1.7092913884798298e-12,
+                    4.81017625710774e-14
+                ]
+            },
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false,
+            "xray_model": [
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                }
+            ]
+        },
+        {
+            "reference": "2024Natur.634..804N",
+            "raw": [
+                1.31385694427829e-14,
+                2.46713137314479e-13,
+                8.76634550043459e-13,
+                5.24812857186717e-13,
+                3.24267193053128e-13,
+                1.76695510992315e-13,
+                1.73356124592274e-13,
+                4.82294986628822e-12
+            ],
+            "raw_err": [
+                0.0,
+                6.05469075154912e-14,
+                1.51057052565773e-13,
+                1.67881720657782e-13,
+                1.42991430768954e-13,
+                1.11276383975125e-13,
+                1.1496248262435e-13,
+                5.64228565515066e-13
+            ],
+            "raw_units": "erg/s/cm^2",
+            "date": [
+                58857.0,
+                59588.9,
+                59589.7,
+                59854.5,
+                59874.5,
+                60121.5,
+                60273.5,
+                60273.5
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "0.3-1keV",
+                "0.3-1keV",
+                "0.3-1keV",
+                "0.3-1keV",
+                "0.3-1keV",
+                "0.3-1keV",
+                "0.3-1keV",
+                "0.3-1keV"
+            ],
+            "obs_type": "xray",
+            "telescope": "Swift",
+            "raw_err_detail": {
+                "upper": [
+                    0.0,
+                    6.05469075154912e-14,
+                    1.51057052565773e-13,
+                    1.67881720657782e-13,
+                    1.42991430768954e-13,
+                    1.11276383975125e-13,
+                    1.1496248262435e-13,
+                    5.64228565515066e-13
+                ],
+                "lower": [
+                    0.0,
+                    6.05469075154912e-14,
+                    1.51057052565773e-13,
+                    1.67881720657782e-13,
+                    1.42991430768954e-13,
+                    1.11276383975125e-13,
+                    1.1496248262435e-13,
+                    5.64228565515066e-13
+                ]
+            },
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false,
+            "xray_model": [
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": NaN,
+                    "param_names": [],
+                    "param_values": [],
+                    "param_value_upper_err": [],
+                    "param_value_lower_err": [],
+                    "param_upperlimit": [],
+                    "param_units": [],
+                    "model_reference": "null",
+                    "min_energy": 0.2999999999999998,
+                    "max_energy": 1.0000000000000018,
+                    "energy_units": "keV"
+                }
+            ]
+        },
+        {
+            "reference": "private",
+            "raw": [
+                1.10399565892294
+            ],
+            "raw_err": [
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                49794.0
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "upperlimit": [
+                true
+            ],
+            "filter_key": [
+                "1.4GHz"
+            ],
+            "obs_type": "radio",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "0.3-1keV",
+            "filter_name": "0.3-1keV",
+            "wave_eff": 2.68632429938601,
+            "wave_units": "nm",
+            "wave_min": 1.239841984332,
+            "wave_max": 4.13280661444001
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2024Natur.634..804N",
+            "human_readable_name": "Nicholl, M. et al. (2024)"
+        },
+        {
+            "name": "2019TNSTR1857....1F",
+            "human_readable_name": "Forster, F. (2019)"
+        },
+        {
+            "name": "2019TNSCR1921....1S",
+            "human_readable_name": "Siebert, M. R. et al. (2019)"
+        }
+    ]
+}

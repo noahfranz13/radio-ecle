@@ -1,0 +1,142 @@
+{
+    "name": {
+        "default_name": "SDSS_J1458",
+        "alias": [
+            {
+                "value": "SDSS_J1458",
+                "reference": [
+                    "2024MNRAS.535.1095C"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "14:58:49.7267",
+            "dec": "+19:10:33.5109",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2024MNRAS.535.1095C"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.268,
+            "reference": [
+                "2024MNRAS.528.7076C"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2024MNRAS.528.7076C"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2008-03-14",
+            "date_format": "iso",
+            "reference": [
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C",
+                "2024MNRAS.535.1095C"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email: nfranz@arizona.edu"
+    },
+    "photometry": [
+        {
+            "reference": "private",
+            "raw": [
+                1.68341270182282,
+                0.497471306803147,
+                0.544483995551161,
+                0.655610485590426,
+                0.438029845480326
+            ],
+            "raw_err": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                49794.0,
+                59502.7379322916,
+                60459.1972916667,
+                58573.4670807292,
+                51495.0
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "filter_key": [
+                "1.4GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "1.4GHz"
+            ],
+            "obs_type": "radio",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2024MNRAS.528.7076C",
+            "human_readable_name": "Clark, Peter et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.535.1095C",
+            "human_readable_name": "Callow, J. et al. (2024)"
+        }
+    ]
+}

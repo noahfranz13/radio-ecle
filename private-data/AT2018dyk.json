@@ -1,0 +1,148 @@
+{
+    "name": {
+        "default_name": "AT2018dyk",
+        "alias": [
+            {
+                "value": "AT2018dyk",
+                "reference": [
+                    "2018TNSTR.987....1F"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "15:33:08.015",
+            "dec": "+44:32:08.20",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2018TNSTR.987....1F"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.037,
+            "reference": [
+                "2018TNSCR1182....1H"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2018TNSCR1182....1H"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2458269.81",
+            "date_format": "jd",
+            "reference": [
+                "2018TNSTR.987....1F",
+                "2018TNSTR.987....1F",
+                "2018TNSTR.987....1F",
+                "2018TNSTR.987....1F",
+                "2018TNSTR.987....1F"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email: nfranz@arizona.edu"
+    },
+    "photometry": [
+        {
+            "reference": "private",
+            "raw": [
+                2.21648463048041,
+                0.399194486470085,
+                0.382897237854839,
+                0.395605458688932,
+                0.470053327810968
+            ],
+            "raw_err": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                49794.0,
+                58570.4602578125,
+                60490.2125885417,
+                59540.5802760417,
+                50507.0
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "filter_key": [
+                "1.4GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "1.4351GHz"
+            ],
+            "obs_type": "radio",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4351GHz",
+            "filter_name": "L",
+            "wave_eff": 208900047.38345757,
+            "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2018TNSTR.987....1F",
+            "human_readable_name": "Fremling, C. (2018)"
+        },
+        {
+            "name": "2018TNSCR1182....1H",
+            "human_readable_name": "Hosseinzadeh, I. A. J. B. D. H. C. M. A. H. G. et al. (2018)"
+        }
+    ]
+}

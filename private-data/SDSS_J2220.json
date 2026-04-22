@@ -1,0 +1,456 @@
+{
+    "name": {
+        "default_name": "SDSS_J2220",
+        "alias": [
+            {
+                "value": "SDSS_J2220",
+                "reference": [
+                    "2024MNRAS.535.1095C"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "22:20:55.7312",
+            "dec": "-07:53:17.8464",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2024MNRAS.535.1095C"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.149,
+            "reference": [
+                "2024MNRAS.528.7076C"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2024MNRAS.528.7076C"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2001-10-21",
+            "date_format": "iso",
+            "reference": [
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C",
+                "2024MNRAS.528.7076C"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email: nfranz@arizona.edu"
+    },
+    "photometry": [
+        {
+            "reference": "2016A&A...588A.103B",
+            "raw": [
+                5.47e-13
+            ],
+            "raw_err": [
+                0.0
+            ],
+            "raw_units": "erg/s/cm^2",
+            "date": [
+                48211.9332291667
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "upperlimit": [
+                false
+            ],
+            "filter_key": [
+                "0.1-2keV"
+            ],
+            "obs_type": "xray",
+            "telescope": "ROSAT",
+            "raw_err_detail": {
+                "upper": [
+                    0.0
+                ],
+                "lower": [
+                    0.0
+                ]
+            },
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false,
+            "xray_model": [
+                {
+                    "model_name": "absorbed powerlaw",
+                    "param_names": [
+                        "Gamma",
+                        "N_H"
+                    ],
+                    "param_values": [
+                        -3.777,
+                        1.152e+20
+                    ],
+                    "param_value_upper_err": [
+                        18.45,
+                        1.74e+21
+                    ],
+                    "param_value_lower_err": [
+                        18.45,
+                        1.74e+21
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "none",
+                        "cm^2"
+                    ],
+                    "model_reference": "2016A&A...588A.103B",
+                    "min_energy": 0.10000000000000021,
+                    "max_energy": 2.0000000000000004,
+                    "energy_units": "keV"
+                }
+            ]
+        },
+        {
+            "reference": "private",
+            "raw": [
+                1.66458397870883,
+                0.544905174307227,
+                0.556599772151334,
+                0.418909779593966,
+                0.445473263445011
+            ],
+            "raw_err": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                49794.0,
+                59040.5019947917,
+                59959.9706354167,
+                58085.1008151042,
+                50591.0
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "filter_key": [
+                "1.4GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "3.0GHz",
+                "1.4GHz"
+            ],
+            "obs_type": "radio",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        },
+        {
+            "reference": "private",
+            "raw": [
+                17.57951,
+                17.599808,
+                17.57862,
+                17.568874,
+                17.554653,
+                17.59724,
+                17.494244,
+                17.53772,
+                17.495295,
+                17.50729,
+                17.554005,
+                17.530449,
+                17.47951,
+                17.524723,
+                17.5098,
+                17.56491,
+                17.540976,
+                17.705883,
+                17.593985,
+                17.713097,
+                17.696007,
+                17.921246,
+                17.929668,
+                18.05206,
+                18.080853,
+                17.872456,
+                17.850681,
+                17.879921,
+                17.939909
+            ],
+            "raw_err": [
+                0.02548988,
+                0.0257832,
+                0.025477162,
+                0.0253385,
+                0.025138572,
+                0.02574577,
+                0.024319965,
+                0.024904128,
+                0.024333796,
+                0.024492607,
+                0.025129518,
+                0.024804672,
+                0.02412768,
+                0.024726834,
+                0.02452609,
+                0.025282491,
+                0.024948893,
+                0.02741411,
+                0.02569845,
+                0.027531222,
+                0.027255118,
+                0.031278398,
+                0.031445865,
+                0.03403046,
+                0.03468114,
+                0.030333469,
+                0.029925358,
+                0.030475289,
+                0.03165126
+            ],
+            "raw_units": "mag(AB)",
+            "date": [
+                59084.38375,
+                59084.384213,
+                59089.3442593,
+                59089.357662,
+                59090.3516204,
+                59090.3520833,
+                59137.2454977,
+                59137.2459606,
+                59139.2260185,
+                59139.2264931,
+                59145.2379282,
+                59145.2383912,
+                59150.2360301,
+                59150.2364931,
+                59151.2619329,
+                59165.1871296,
+                59165.1875926,
+                59181.1831713,
+                59181.1836343,
+                59183.1605903,
+                59183.1610532,
+                59452.3512731,
+                59452.3517477,
+                59478.3660532,
+                59480.3739815,
+                59521.2084375,
+                59523.0765278,
+                59525.2260648,
+                59527.1664005
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf"
+            ],
+            "obs_type": "uvoir",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "g.ztf",
+            "filter_name": "g.ztf",
+            "wave_eff": 474.64799999999997,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "wave_eff": 214137470.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "0.1-2keV",
+            "filter_name": "0.1-2keV",
+            "wave_eff": 6.50917041774301,
+            "wave_units": "nm",
+            "wave_min": 0.619920992166001,
+            "wave_max": 12.39841984332
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2016A&A...588A.103B",
+            "human_readable_name": "Boller, Th. et al. (2016)"
+        },
+        {
+            "name": "2024MNRAS.528.7076C",
+            "human_readable_name": "Clark, Peter et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.535.1095C",
+            "human_readable_name": "Callow, J. et al. (2024)"
+        }
+    ]
+}
