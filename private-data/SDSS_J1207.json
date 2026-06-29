@@ -773,12 +773,12 @@
             "human_readable_name": "Merloni, A. et al. (2024)"
         },
         {
-            "name": "2024MNRAS.528.7076C",
-            "human_readable_name": "Clark, Peter et al. (2024)"
-        },
-        {
             "name": "2024MNRAS.535.1095C",
             "human_readable_name": "Callow, J. et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.528.7076C",
+            "human_readable_name": "Clark, Peter et al. (2024)"
         }
     ]
 }
