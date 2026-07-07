@@ -1,0 +1,13 @@
+{
+  "title": "radio-ecle",
+    "description": "Code for reproducing the ECLE radio observations paper (Franz+26, to be submitted soon!).",
+  "creators": [
+    {
+      "name": "Noah Franz",
+      "affiliation": "University of Arizona"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open"
+}
