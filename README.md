@@ -11,7 +11,7 @@ and [syncfit](https://github.com/alexander-group/syncfit).
 ## File & Directory Descriptions
 ### Data & Other Directories
 
-1. `data`: The raw datasets used in this work. This includes scripts to do forced photometry in CASA on the radio images
+1. `data`: The raw datasets used in this work. This includes scripts to do forced photometry in CASA on the radio images. (Only available on zenodo)
 2. `private-data`: The OTTER formatted CSV files of the photometry after we've cleaned it up.
 3. `convergence-plots`: Plots generated in the `synchrotron-modeling.ipynb` notebook automatically to assess convergence and reliability of fit results.
 
