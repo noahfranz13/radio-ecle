@@ -66,10 +66,10 @@
             "reference": "private",
             "raw": [
                 1.68341270182282,
+                0.438029845480326,
                 0.497471306803147,
                 0.544483995551161,
-                0.655610485590426,
-                0.438029845480326
+                0.655610485590426
             ],
             "raw_err": [
                 0.0,
@@ -81,10 +81,10 @@
             "raw_units": "mJy",
             "date": [
                 49794.0,
+                51495.0,
                 59502.7379322916,
                 60459.1972916667,
-                58573.4670807292,
-                51495.0
+                58573.4670807292
             ],
             "date_format": [
                 "mjd",
@@ -102,10 +102,10 @@
             ],
             "filter_key": [
                 "1.4GHz",
+                "1.4GHz",
                 "3.0GHz",
                 "3.0GHz",
-                "3.0GHz",
-                "1.4GHz"
+                "3.0GHz"
             ],
             "obs_type": "radio",
             "val_k": false,
@@ -131,12 +131,12 @@
     ],
     "reference_alias": [
         {
-            "name": "2024MNRAS.535.1095C",
-            "human_readable_name": "Callow, J. et al. (2024)"
-        },
-        {
             "name": "2024MNRAS.528.7076C",
             "human_readable_name": "Clark, Peter et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.535.1095C",
+            "human_readable_name": "Callow, J. et al. (2024)"
         }
     ]
 }

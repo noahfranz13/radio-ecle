@@ -1977,10 +1977,10 @@
                 36.0,
                 49.3,
                 0.840919412439689,
+                0.414888222908101,
                 0.482413818157093,
                 0.39687649592172,
-                0.381451176965443,
-                0.414888222908101
+                0.381451176965443
             ],
             "raw_err": [
                 13.5,
@@ -2043,10 +2043,10 @@
                 57914.71674,
                 57914.71674,
                 49794.0,
+                50538.0,
                 58619.7566640625,
                 60468.8765625,
-                59542.4144427083,
-                50538.0
+                59542.4144427083
             ],
             "date_format": [
                 "mjd",
@@ -2109,10 +2109,10 @@
                 "10.999GHz",
                 "9.774GHz",
                 "1.4GHz",
+                "1.4351GHz",
                 "3.0GHz",
                 "3.0GHz",
-                "3.0GHz",
-                "1.4351GHz"
+                "3.0GHz"
             ],
             "obs_type": "radio",
             "val_k": false,
@@ -13534,26 +13534,26 @@
             "wave_units": "nm"
         },
         {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "wave_eff": 99930819.33333333,
-            "wave_units": "nm"
-        },
-        {
             "filter_key": "1.4351GHz",
             "filter_name": "L",
             "wave_eff": 208900047.38345757,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
             "wave_units": "nm"
         }
     ],
     "reference_alias": [
         {
-            "name": "2024MNRAS.535.1095C",
-            "human_readable_name": "Callow, J. et al. (2024)"
-        },
-        {
             "name": "2024MNRAS.528.7076C",
             "human_readable_name": "Clark, Peter et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.535.1095C",
+            "human_readable_name": "Callow, J. et al. (2024)"
         }
     ]
 }

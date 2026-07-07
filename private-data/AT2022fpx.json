@@ -2676,6 +2676,7 @@
                 "2022TNSTR.836....1T",
                 "2022TNSTR.836....1T",
                 "2022TNSTR.836....1T",
+                "2022TNSTR.836....1T",
                 "2022TNSTR.836....1T"
             ],
             "computed": false,
@@ -2690,11 +2691,13 @@
             "reference": "private",
             "raw": [
                 0.853507546707988,
+                0.387117830612806,
                 0.363724281002628,
                 0.536355521456288,
-                0.387117830612806
+                0.3798
             ],
             "raw_err": [
+                0.0,
                 0.0,
                 0.0,
                 0.0,
@@ -2703,11 +2706,13 @@
             "raw_units": "mJy",
             "date": [
                 49794.0,
+                50568.0,
                 58068.8376015625,
                 59064.12678125,
-                50568.0
+                59984.551328125
             ],
             "date_format": [
+                "mjd",
                 "mjd",
                 "mjd",
                 "mjd",
@@ -2717,13 +2722,15 @@
                 true,
                 true,
                 true,
+                true,
                 true
             ],
             "filter_key": [
                 "1.4GHz",
+                "1.4351GHz",
                 "3.0GHz",
                 "3.0GHz",
-                "1.4351GHz"
+                "3.0GHz"
             ],
             "obs_type": "radio",
             "val_k": false,
@@ -18531,15 +18538,15 @@
             "wave_units": "nm"
         },
         {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "wave_eff": 99930819.33333333,
-            "wave_units": "nm"
-        },
-        {
             "filter_key": "1.4351GHz",
             "filter_name": "L",
             "wave_eff": 208900047.38345757,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
             "wave_units": "nm"
         }
     ],

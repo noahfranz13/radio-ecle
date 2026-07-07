@@ -65,22 +65,22 @@
             "reference": "private",
             "raw": [
                 0.994657835690305,
+                0.422903224563759,
                 1.68151686202166,
-                0.486426105424079,
-                0.422903224563759
+                0.486426105424079
             ],
             "raw_err": [
                 0.0,
-                0.114592025561541,
                 0.0,
+                0.114592025561541,
                 0.0
             ],
             "raw_units": "mJy",
             "date": [
                 49794.0,
+                50496.0,
                 59496.564109375,
-                58628.8934192708,
-                50496.0
+                58628.8934192708
             ],
             "date_format": [
                 "mjd",
@@ -90,15 +90,15 @@
             ],
             "upperlimit": [
                 true,
-                false,
                 true,
+                false,
                 true
             ],
             "filter_key": [
                 "1.4GHz",
+                "1.4351GHz",
                 "3.0GHz",
-                "3.0GHz",
-                "1.4351GHz"
+                "3.0GHz"
             ],
             "obs_type": "radio",
             "val_k": false,
@@ -116,15 +116,15 @@
             "wave_units": "nm"
         },
         {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "wave_eff": 99930819.33333333,
-            "wave_units": "nm"
-        },
-        {
             "filter_key": "1.4351GHz",
             "filter_name": "L",
             "wave_eff": 208900047.38345757,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
             "wave_units": "nm"
         }
     ],
